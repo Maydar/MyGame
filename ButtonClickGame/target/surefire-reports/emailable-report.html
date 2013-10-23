@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">50</td><td class="numi">50</td><td class="numi">0</td><td class="numi">0</td><td class="numi">2,5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">tests.MessageSystemTests.AddressServiceImplTest</td><td><a href="#m1"><b>testGetSetAddress</b>  </a></td><td class="numi">1</td><td>1382547230528</td><td class="numi">2</td></tr>
+<tr class="passedeven"><td rowspan="1">tests.UtilsTests.ContextTest</td><td><a href="#m2"><b>testAddGet</b>  </a></td><td class="numi">1</td><td>1382547230530</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">tests.DatabaseTests.DatabaseServiceMockTest</td><td><a href="#m3"><b>testGetSetName</b>  </a></td><td class="numi">1</td><td>1382547230550</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="6">tests.ResourceTests.DbConnectionResourceTest</td><td><a href="#m4"><b>testHibernateDialect</b>  </a></td><td class="numi">1</td><td>1382547230552</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m5"><b>testSetDriver</b>  </a></td><td class="numi">1</td><td>1382547230552</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m6"><b>testSetHibernateHbm2ddlAuto</b>  </a></td><td class="numi">1</td><td>1382547230552</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m7"><b>testSetPassword</b>  </a></td><td class="numi">1</td><td>1382547230553</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m8"><b>testSetURL</b>  </a></td><td class="numi">1</td><td>1382547230553</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m9"><b>testSetUsername</b>  </a></td><td class="numi">1</td><td>1382547230553</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="8">tests.FrontendTests.FrontendImplTest</td><td><a href="#m10"><b>testDoAuthentification</b>  </a></td><td class="numi">1</td><td>1382547230569</td><td class="numi">8</td></tr><tr class="passedodd"><td><a href="#m11"><b>testGetAddress</b>  </a></td><td class="numi">1</td><td>1382547230577</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m12"><b>testGetName</b>  </a></td><td class="numi">1</td><td>1382547230578</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m13"><b>testHandle</b>  </a></td><td class="numi">1</td><td>1382547230579</td><td class="numi">3</td></tr><tr class="passedodd"><td><a href="#m14"><b>testSetName</b>  </a></td><td class="numi">1</td><td>1382547230582</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m15"><b>testShowStartedGame</b>  </a></td><td class="numi">1</td><td>1382547230582</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m16"><b>testStartGame</b>  </a></td><td class="numi">1</td><td>1382547230583</td><td class="numi">8</td></tr><tr class="passedodd"><td><a href="#m17"><b>testUpdateUserId</b>  </a></td><td class="numi">1</td><td>1382547230591</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="3">tests.GameMechanicTests.GameMechanicsImplTest</td><td><a href="#m18"><b>testGetAddress</b>  </a></td><td class="numi">1</td><td>1382547230594</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m19"><b>testGetSetName</b>  </a></td><td class="numi">1</td><td>1382547230594</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m20"><b>testStartGame</b>  </a></td><td class="numi">1</td><td>1382547230594</td><td class="numi">3</td></tr>
+<tr class="passedodd"><td rowspan="1">tests.GameMechanicTests.GameSessionTest</td><td><a href="#m21"><b>testGameSession</b>  </a></td><td class="numi">1</td><td>1382547230599</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">tests.MessageSystemTests.MsgAddUserIdTest</td><td><a href="#m22"><b>testCreateMsg</b>  </a></td><td class="numi">1</td><td>1382547230599</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="1">tests.MessageSystemTests.MsgGameStartedTest</td><td><a href="#m23"><b>testCreateMsgGameStarted</b>  </a></td><td class="numi">1</td><td>1382547230600</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">tests.MessageSystemTests.MsgGetUserIdTest</td><td><a href="#m24"><b>testCreateMsgGetUser</b>  </a></td><td class="numi">1</td><td>1382547230600</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">tests.MessageSystemTests.MsgStartGameTest</td><td><a href="#m25"><b>testMsgStartGame</b>  </a></td><td class="numi">1</td><td>1382547230600</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">tests.MessageSystemTests.MsgUpdateUserIdTest</td><td><a href="#m26"><b>testCreateMsgUserUpdate</b>  </a></td><td class="numi">1</td><td>1382547230601</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="3">tests.FrontendTests.PageGeneratorImplTest</td><td><a href="#m27"><b>testGenerateGamePage</b>  </a></td><td class="numi">1</td><td>1382547230601</td><td class="numi">6</td></tr><tr class="passedodd"><td><a href="#m28"><b>testGenerateResponsePage</b>  </a></td><td class="numi">1</td><td>1382547230607</td><td class="numi">6</td></tr><tr class="passedodd"><td><a href="#m29"><b>testGenerateResponseRegistrPage</b>  </a></td><td class="numi">1</td><td>1382547230613</td><td class="numi">5</td></tr>
+<tr class="passedeven"><td rowspan="2">tests.UtilsTests.ReflectionHelperTest</td><td><a href="#m30"><b>testCreateInstance</b>  </a></td><td class="numi">1</td><td>1382547230618</td><td class="numi">9</td></tr><tr class="passedeven"><td><a href="#m31"><b>testSetFieldValue</b>  </a></td><td class="numi">1</td><td>1382547230627</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="2">tests.ResourceTests.ResourceSystemImplTest</td><td><a href="#m32"><b>testGetResource</b>  </a></td><td class="numi">1</td><td>1382547230628</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m33"><b>testLoadResources</b>  </a></td><td class="numi">1</td><td>1382547230630</td><td class="numi">2</td></tr>
+<tr class="passedeven"><td rowspan="1">tests.FrontendTests.UserSessionTest</td><td><a href="#m34"><b>createUserSessionTest</b>  </a></td><td class="numi">1</td><td>1382547230632</td><td class="numi">2</td></tr>
+<tr class="passedodd"><td rowspan="2">tests.DatabaseTests.UsersDataSetTest</td><td><a href="#m35"><b>testGetId</b>  </a></td><td class="numi">1</td><td>1382547230634</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m36"><b>testGetName</b>  </a></td><td class="numi">1</td><td>1382547230635</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">tests.MessageSystemTests.MsgClickTest</td><td><a href="#m37"><b>testMsgClickCreate</b>  </a></td><td class="numi">1</td><td>1382547230635</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="3">tests.UtilsTests.LongIdTest</td><td><a href="#m38"><b>testEquals</b>  </a></td><td class="numi">1</td><td>1382547230635</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m39"><b>testGetLong</b>  </a></td><td class="numi">1</td><td>1382547230636</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m40"><b>testHashCode</b>  </a></td><td class="numi">1</td><td>1382547230636</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="2">tests.MessageSystemTests.MessageSystemImplTest</td><td><a href="#m41"><b>testSendMessage</b>  </a></td><td class="numi">1</td><td>1382547230637</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m42"><b>testAddServiceAndGetQueue</b>  </a></td><td class="numi">1</td><td>1382547230638</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="4">tests.UtilsTests.VFSImplTest</td><td><a href="#m43"><b>testGetBytes</b>  </a></td><td class="numi">1</td><td>1382547230638</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m44"><b>testGetUTF8Text</b>  </a></td><td class="numi">1</td><td>1382547230640</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m45"><b>testFileIterator</b>  </a></td><td class="numi">1</td><td>1382547230642</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m46"><b>testMainFunctions</b>  </a></td><td class="numi">1</td><td>1382547230642</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="2">tests.DatabaseTests.DatabaseServiceMockTest</td><td><a href="#m47"><b>testAddUser</b>  </a></td><td class="numi">1</td><td>1382547230644</td><td class="numi">1001</td></tr><tr class="passedeven"><td><a href="#m48"><b>testFindUser</b>  </a></td><td class="numi">1</td><td>1382547231647</td><td class="numi">1000</td></tr>
+<tr class="passedodd"><td rowspan="1">tests.FrontendTests.FrontendImplTest</td><td><a href="#m49"><b>testReplicateFromGM</b>  </a></td><td class="numi">1</td><td>1382547232649</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="1">tests.GameMechanicTests.GameMechanicsImplTest</td><td><a href="#m50"><b>testDoProgress</b>  </a></td><td class="numi">1</td><td>1382547232651</td><td class="numi">1</td></tr>
+</table>
+<h1>Command line test</h1>
+<h2 id="m1">tests.GameMechanicTests.GameSessionTest:testGameSession</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">tests.UtilsTests.ReflectionHelperTest:testSetFieldValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">tests.UtilsTests.ContextTest:testAddGet</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">tests.FrontendTests.FrontendImplTest:testSetName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">tests.FrontendTests.FrontendImplTest:testGetAddress</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">tests.FrontendTests.PageGeneratorImplTest:testGenerateResponsePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">tests.DatabaseTests.DatabaseServiceMockTest:testAddUser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">tests.FrontendTests.FrontendImplTest:testReplicateFromGM</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">tests.MessageSystemTests.MsgGameStartedTest:testCreateMsgGameStarted</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">tests.DatabaseTests.DatabaseServiceMockTest:testGetSetName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">tests.ResourceTests.DbConnectionResourceTest:testSetHibernateHbm2ddlAuto</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">tests.ResourceTests.DbConnectionResourceTest:testSetDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">tests.UtilsTests.VFSImplTest:testGetBytes</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">tests.DatabaseTests.UsersDataSetTest:testGetId</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">tests.FrontendTests.FrontendImplTest:testStartGame</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">tests.GameMechanicTests.GameMechanicsImplTest:testGetAddress</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">tests.FrontendTests.FrontendImplTest:testShowStartedGame</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">tests.ResourceTests.ResourceSystemImplTest:testLoadResources</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">tests.ResourceTests.ResourceSystemImplTest:testGetResource</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">tests.UtilsTests.LongIdTest:testGetLong</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">tests.FrontendTests.FrontendImplTest:testDoAuthentification</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">tests.ResourceTests.DbConnectionResourceTest:testSetURL</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">tests.DatabaseTests.UsersDataSetTest:testGetName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">tests.FrontendTests.PageGeneratorImplTest:testGenerateGamePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">tests.FrontendTests.FrontendImplTest:testGetName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">tests.MessageSystemTests.MessageSystemImplTest:testAddServiceAndGetQueue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">tests.FrontendTests.UserSessionTest:createUserSessionTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">tests.UtilsTests.ReflectionHelperTest:testCreateInstance</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">tests.ResourceTests.DbConnectionResourceTest:testSetUsername</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">tests.UtilsTests.VFSImplTest:testMainFunctions</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">tests.UtilsTests.LongIdTest:testHashCode</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">tests.ResourceTests.DbConnectionResourceTest:testSetPassword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">tests.ResourceTests.DbConnectionResourceTest:testHibernateDialect</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">tests.MessageSystemTests.AddressServiceImplTest:testGetSetAddress</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">tests.FrontendTests.FrontendImplTest:testUpdateUserId</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">tests.GameMechanicTests.GameMechanicsImplTest:testGetSetName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">tests.MessageSystemTests.MsgClickTest:testMsgClickCreate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">tests.UtilsTests.VFSImplTest:testGetUTF8Text</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">tests.MessageSystemTests.MessageSystemImplTest:testSendMessage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">tests.FrontendTests.FrontendImplTest:testHandle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">tests.MessageSystemTests.MsgGetUserIdTest:testCreateMsgGetUser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">tests.MessageSystemTests.MsgAddUserIdTest:testCreateMsg</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">tests.GameMechanicTests.GameMechanicsImplTest:testDoProgress</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">tests.DatabaseTests.DatabaseServiceMockTest:testFindUser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">tests.FrontendTests.PageGeneratorImplTest:testGenerateResponseRegistrPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">tests.MessageSystemTests.MsgUpdateUserIdTest:testCreateMsgUserUpdate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">tests.UtilsTests.LongIdTest:testEquals</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">tests.MessageSystemTests.MsgStartGameTest:testMsgStartGame</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">tests.UtilsTests.VFSImplTest:testFileIterator</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">tests.GameMechanicTests.GameMechanicsImplTest:testStartGame</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

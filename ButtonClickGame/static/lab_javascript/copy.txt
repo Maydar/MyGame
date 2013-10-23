@@ -1,0 +1,157 @@
+//----------------------------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------
+function CheckElemGranByString (beginning_string, beginning_column, number_elem, type_object)
+//Проверяет number_elem - 1 элементов, стоящих подряд на строке, ограниченных 1 другим элементом,
+//начало находится в положении beginning_string, beginning_column
+//type_object определяет, что проверяем: фишки компьютера или игрока
+
+{
+    var i = beginning_string, j = beginning_column, count = 0, perem = 0;
+    if (j < Number_Fields - number_elem + 1) //Проверяем строку
+
+    {
+       for (count = 0; count < number_elem; count++)
+
+           {
+           if (count == 0 && Field [i] [j] == type_object && j > 0) { if (Field[i] [j-1] == 0) j++; }
+           if (count == 0 && Field [i] [j] == -type_object && j == beginning_column) j++, perem = 1;
+           if (count != 0 && count != number_elem - 1 && Field [i] [j] == type_object) j++;
+
+           if (count == number_elem - 1 && ((Field [i] [j] == type_object && perem == 1) ||
+              (Field [i] [j] == -type_object && perem == 0))) j++;
+           }
+       if (j < Number_Fields)
+       {
+       if (j == beginning_column + number_elem && Field [i] [j] == 0 && perem == 1) return true;
+       }
+
+       if (j == beginning_column + number_elem && perem == 0) return true;
+    }
+    return false;
+}
+
+function CheckElemGranByColumn (beginning_string, beginning_column, number_elem, type_object)
+//Проверяет number_elem - 1 элементов, стоящих подряд на столбце, ограниченных 1 другим элементом,
+//начало находится в положении beginning_string, beginning_column
+//type_object определяет, что проверяем: фишки компьютера или игрока
+
+{
+    var i = beginning_string, j = beginning_column, count = 0, perem = 0;
+    if (i < Number_Fields - number_elem + 1) //Проверяем столбец
+
+    {
+       for (count = 0; count < number_elem; count++)
+
+           {
+           if (count == 0 && Field [i] [j] == type_object && i > 0 && Field[i-1] [j] == 0) i++;
+           if (count == 0 && Field [i] [j] == -type_object && i == beginning_string) i++, perem = 1;
+           if (count != 0 && count != number_elem - 1 && Field [i] [j] == type_object) i++;
+
+           if (count == number_elem - 1 && ((Field [i] [j] == type_object && perem == 1) ||
+              (Field [i] [j] == -type_object && perem == 0))) i++;
+           }
+       if (i < Number_Fields)
+       {
+       if (i == beginning_string + number_elem && Field [i] [j] == 0 && perem == 1) return true;
+       }
+
+       if (i == beginning_string + number_elem && perem == 0) return true;
+    }
+    return false;
+}
+
+function CheckElemGranByRightDiagonal (beginning_string, beginning_column, number_elem, type_object)
+//Проверяет number_elem - 1 элементов, стоящих подряд на правой диагонали, ограниченных 1 другим элементом,
+//начало находится в положении beginning_string, beginning_column
+//type_object определяет, что проверяем: фишки компьютера или игрока
+
+{
+    var i = beginning_string, j = beginning_column, count = 0, perem = 0;
+    if (j < Number_Fields - number_elem + 1 && i < Number_Fields - number_elem + 1)
+
+    {
+       for (count = 0; count < number_elem; count++)
+
+           {
+           if (count == 0 && Field [i] [j] == type_object && j > 0 && i > 0 && Field[i-1] [j-1] == 0) j++, i++;
+           if (count == 0 && Field [i] [j] == -type_object && j == beginning_column) j++, i++, perem = 1;
+           if (count != 0 && count != number_elem - 1 && Field [i] [j] == type_object) j++, i++;
+
+           if (count == number_elem - 1 && ((Field [i] [j] == type_object && perem == 1) ||
+              (Field [i] [j] == -type_object && perem == 0))) j++, i++;
+           }
+       if (i < Number_Fields && j < Number_Fields)
+       {
+       if (j == beginning_column + number_elem && Field [i] [j] == 0 && perem == 1) return true;
+       }
+
+       if (j == beginning_column + number_elem && perem == 0) return true;
+    }
+    return false;
+}
+
+function CheckElemGranByLeftDiagonal (beginning_string, beginning_column, number_elem, type_object)
+//Проверяет number_elem - 1 элементов, стоящих подряд на левой диагонали, ограниченных 1 другим элементом,
+//начало находится в положении beginning_string, beginning_column
+//type_object определяет, что проверяем: фишки компьютера или игрока
+
+{
+    var i = beginning_string, j = beginning_column, count = 0, perem = 0;
+    if (i < Number_Fields - number_elem + 1 && j > number_elem - 1)
+
+    {
+       for (count = 0; count < number_elem; count++)
+
+           {
+           if (count == 0 && Field [i] [j] == type_object && i > 0 && Field[i-1] [j+1] == 0) i++, j--;
+           if (count == 0 && Field [i] [j] == -type_object && i == beginning_string) i++, j--, perem = 1;
+           if (count != 0 && count != number_elem - 1 && Field [i] [j] == type_object) i++, j--;
+
+           if (count == number_elem - 1 && ((Field [i] [j] == type_object && perem == 1) ||
+              (Field [i] [j] == -type_object && perem == 0))) i++, j--;
+           }
+       if (i < Number_Fields && j >= 0)
+       {
+       if (i == beginning_string + number_elem && Field [i] [j] == 0 && perem == 1) return true;
+       }
+
+       if (i == beginning_string + number_elem && perem == 0) return true;
+    }
+    return false;
+}
+
+function CheckAllElemGran (int number_elem, int type_object, int last_mot_str, int last_mot_col)
+//Возвращает количество элементов, удовлетворяющих комбинациям, описанным выше
+//type_object определяет, что проверяем: фишки компьютера или игрока
+//last_mot_str - номер строки, куда была поставлена последняя фишка
+//last_mot_col - номер столбца, куда была поставлена последняя фишка
+
+{
+    var i = 0, j = 0, sum = 0;
+    i = last_mot_str;
+    for (j = 0; j < Number_Fields - 1; j++)
+        sum += CheckElemGranByString (i, j, number_elem, type_object);
+    if (sygnal_ == 0 && sum == 1) sygnal_ = 1;
+
+    j = last_mot_col;
+    for (i = 0; i < Number_Fields - 1; i++)
+        sum += CheckElemGranByColumn (i, j, number_elem, type_object);
+    if (sygnal_ == 0 && sum == 1) sygnal_ = 2;
+
+    if (last_mot_str >= last_mot_col) i = last_mot_str - last_mot_col, j = 0;
+    else j = last_mot_col - last_mot_str, i = 0;
+
+    for (; i < Number_Fields - 1 && j < Number_Fields - 1; i++, j++)
+        sum += CheckElemGranByRightDiagonal (i, j, number_elem, type_object);
+
+    if (sygnal_ == 0 && sum == 1) sygnal_ = 3;
+
+    if (last_mot_str >= Number_Fields - last_mot_col-1) i = last_mot_str + last_mot_col + 1 - Number_Fields, j = Number_Fields-1;
+       else j = last_mot_col + last_mot_str, i = 0;
+
+    for (; i < Number_Fields - 1 && j > 0; i++, j--)
+        sum += CheckElemGranByLeftDiagonal (i, j, number_elem, type_object);
+
+    if (sygnal_ == 0 && sum == 1) sygnal_ = 4;
+    return sum*type_object;
+}

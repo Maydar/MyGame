@@ -1,0 +1,16 @@
+<html>
+<head>
+<title> Пример JQuery </title>
+<script type = "text/javascript" src = "jquery.js">
+$(document).ready(function(){
+    $(".btn-slide").click(function(){
+        $("#panel").slideToggle("slow");
+        $(this).toggleClass("active");
+    });
+});
+</script>
+</head>
+<body>
+
+</body>
+</html>

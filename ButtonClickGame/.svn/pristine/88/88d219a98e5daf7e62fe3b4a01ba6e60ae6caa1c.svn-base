@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tower Fight</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="screen.css" media="screen">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="underscore.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript">
+      Game.Tower.widthFraction = 0.2;
+      Game.Tower.heightFraction = 0.27;
+      Game.Tower.marginXFraction = 0.07;
+      
+      Game.Bomb.gFraction = 0.05;
+      Game.Bomb.radiusFraction = 0.01;
+      Game.Bomb.speedFraction = 1;
+
+      Game.canvasWidth = 1920;
+      Game.canvasHeight = 1080;
+      Game.ticksPerSecond = 30;
+
+
+      jQuery(function($){
+        var $canvas = $('.canvas');
+        var game = new Game({
+          canvas: $canvas[0],
+          isLeftMySide: true
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <canvas class="canvas"></canvas>
+    <img class="tower" src="tower.png">
+  </body>
+</html>

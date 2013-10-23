@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Custom suite" parallel="false">
+  <test verbose="1" name="ButtonClickGame" annotations="JDK">
+    <classes>
+      <class name="tests.MessageSystemTests.MsgUpdateUserIdTest"/>
+      <class name="tests.MessageSystemTests.MsgClickTest"/>
+      <class name="tests.ResourceTests.DbConnectionResourceTest"/>
+      <class name="tests.GameMechanicTests.GameSessionTest"/>
+      <class name="tests.UtilsTests.ReflectionHelperTest"/>
+      <class name="tests.MessageSystemTests.MessageSystemImplTest"/>
+      <class name="tests.GameMechanicTests.GameMechanicsImplTest"/>
+      <class name="tests.UtilsTests.VFSImplTest"/>
+      <class name="tests.MessageSystemTests.AddressServiceImplTest"/>
+      <class name="tests.MessageSystemTests.MsgAddUserIdTest"/>
+      <class name="tests.FrontendTests.UserSessionTest"/>
+      <class name="tests.FrontendTests.FrontendImplTest"/>
+      <class name="tests.FrontendTests.PageGeneratorImplTest"/>
+      <class name="tests.UtilsTests.ContextTest"/>
+      <class name="tests.MessageSystemTests.MsgGetUserIdTest"/>
+      <class name="tests.GameMechanicTests.GameStateTest"/>
+      <class name="tests.ResourceTests.ResourceSystemImplTest"/>
+      <class name="tests.MessageSystemTests.MsgGameStartedTest"/>
+      <class name="tests.MessageSystemTests.MsgStartGameTest"/>
+      <class name="tests.DatabaseTests.DatabaseServiceMockTest"/>
+      <class name="tests.DatabaseTests.UsersDataSetTest"/>
+      <class name="tests.UtilsTests.LongIdTest"/>
+    </classes>
+  </test>
+</suite>

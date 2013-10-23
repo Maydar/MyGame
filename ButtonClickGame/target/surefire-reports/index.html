@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-passed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">50 methods,   50 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.FrontendTests.UserSessionTest" hash-for-method="createUserSessionTest">createUserSessionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.UtilsTests.ContextTest" hash-for-method="testAddGet">testAddGet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.MessageSystemTests.MessageSystemImplTest" hash-for-method="testAddServiceAndGetQueue">testAddServiceAndGetQueue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.DatabaseTests.DatabaseServiceMockTest" hash-for-method="testAddUser">testAddUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.UtilsTests.ReflectionHelperTest" hash-for-method="testCreateInstance">testCreateInstance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.MessageSystemTests.MsgAddUserIdTest" hash-for-method="testCreateMsg">testCreateMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.MessageSystemTests.MsgGameStartedTest" hash-for-method="testCreateMsgGameStarted">testCreateMsgGameStarted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.MessageSystemTests.MsgGetUserIdTest" hash-for-method="testCreateMsgGetUser">testCreateMsgGetUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.MessageSystemTests.MsgUpdateUserIdTest" hash-for-method="testCreateMsgUserUpdate">testCreateMsgUserUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.FrontendTests.FrontendImplTest" hash-for-method="testDoAuthentification">testDoAuthentification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.GameMechanicTests.GameMechanicsImplTest" hash-for-method="testDoProgress">testDoProgress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.UtilsTests.LongIdTest" hash-for-method="testEquals">testEquals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.UtilsTests.VFSImplTest" hash-for-method="testFileIterator">testFileIterator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.DatabaseTests.DatabaseServiceMockTest" hash-for-method="testFindUser">testFindUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.GameMechanicTests.GameSessionTest" hash-for-method="testGameSession">testGameSession</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.FrontendTests.PageGeneratorImplTest" hash-for-method="testGenerateGamePage">testGenerateGamePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.FrontendTests.PageGeneratorImplTest" hash-for-method="testGenerateResponsePage">testGenerateResponsePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.FrontendTests.PageGeneratorImplTest" hash-for-method="testGenerateResponseRegistrPage">testGenerateResponseRegistrPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.FrontendTests.FrontendImplTest" hash-for-method="testGetAddress">testGetAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.GameMechanicTests.GameMechanicsImplTest" hash-for-method="testGetAddress">testGetAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.UtilsTests.VFSImplTest" hash-for-method="testGetBytes">testGetBytes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.DatabaseTests.UsersDataSetTest" hash-for-method="testGetId">testGetId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.UtilsTests.LongIdTest" hash-for-method="testGetLong">testGetLong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.DatabaseTests.UsersDataSetTest" hash-for-method="testGetName">testGetName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.FrontendTests.FrontendImplTest" hash-for-method="testGetName">testGetName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.ResourceTests.ResourceSystemImplTest" hash-for-method="testGetResource">testGetResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.MessageSystemTests.AddressServiceImplTest" hash-for-method="testGetSetAddress">testGetSetAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.DatabaseTests.DatabaseServiceMockTest" hash-for-method="testGetSetName">testGetSetName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.GameMechanicTests.GameMechanicsImplTest" hash-for-method="testGetSetName">testGetSetName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.UtilsTests.VFSImplTest" hash-for-method="testGetUTF8Text">testGetUTF8Text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.FrontendTests.FrontendImplTest" hash-for-method="testHandle">testHandle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.UtilsTests.LongIdTest" hash-for-method="testHashCode">testHashCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.ResourceTests.DbConnectionResourceTest" hash-for-method="testHibernateDialect">testHibernateDialect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.ResourceTests.ResourceSystemImplTest" hash-for-method="testLoadResources">testLoadResources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.UtilsTests.VFSImplTest" hash-for-method="testMainFunctions">testMainFunctions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.MessageSystemTests.MsgClickTest" hash-for-method="testMsgClickCreate">testMsgClickCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.MessageSystemTests.MsgStartGameTest" hash-for-method="testMsgStartGame">testMsgStartGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.FrontendTests.FrontendImplTest" hash-for-method="testReplicateFromGM">testReplicateFromGM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.MessageSystemTests.MessageSystemImplTest" hash-for-method="testSendMessage">testSendMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.ResourceTests.DbConnectionResourceTest" hash-for-method="testSetDriver">testSetDriver</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.UtilsTests.ReflectionHelperTest" hash-for-method="testSetFieldValue">testSetFieldValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.ResourceTests.DbConnectionResourceTest" hash-for-method="testSetHibernateHbm2ddlAuto">testSetHibernateHbm2ddlAuto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.FrontendTests.FrontendImplTest" hash-for-method="testSetName">testSetName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.ResourceTests.DbConnectionResourceTest" hash-for-method="testSetPassword">testSetPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.ResourceTests.DbConnectionResourceTest" hash-for-method="testSetURL">testSetURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.ResourceTests.DbConnectionResourceTest" hash-for-method="testSetUsername">testSetUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.FrontendTests.FrontendImplTest" hash-for-method="testShowStartedGame">testShowStartedGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.FrontendTests.FrontendImplTest" hash-for-method="testStartGame">testStartGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.GameMechanicTests.GameMechanicsImplTest" hash-for-method="testStartGame">testStartGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.FrontendTests.FrontendImplTest" hash-for-method="testUpdateUserId">testUpdateUserId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UtilsTests.LongIdTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEquals">
+                  </a> <!-- testEquals -->
+                  <span class="method-name">testEquals</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetLong">
+                  </a> <!-- testGetLong -->
+                  <span class="method-name">testGetLong</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHashCode">
+                  </a> <!-- testHashCode -->
+                  <span class="method-name">testHashCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UtilsTests.VFSImplTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFileIterator">
+                  </a> <!-- testFileIterator -->
+                  <span class="method-name">testFileIterator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetBytes">
+                  </a> <!-- testGetBytes -->
+                  <span class="method-name">testGetBytes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUTF8Text">
+                  </a> <!-- testGetUTF8Text -->
+                  <span class="method-name">testGetUTF8Text</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMainFunctions">
+                  </a> <!-- testMainFunctions -->
+                  <span class="method-name">testMainFunctions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.MessageSystemTests.MsgClickTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMsgClickCreate">
+                  </a> <!-- testMsgClickCreate -->
+                  <span class="method-name">testMsgClickCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.MessageSystemTests.MessageSystemImplTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddServiceAndGetQueue">
+                  </a> <!-- testAddServiceAndGetQueue -->
+                  <span class="method-name">testAddServiceAndGetQueue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSendMessage">
+                  </a> <!-- testSendMessage -->
+                  <span class="method-name">testSendMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DatabaseTests.DatabaseServiceMockTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUser">
+                  </a> <!-- testAddUser -->
+                  <span class="method-name">testAddUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindUser">
+                  </a> <!-- testFindUser -->
+                  <span class="method-name">testFindUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSetName">
+                  </a> <!-- testGetSetName -->
+                  <span class="method-name">testGetSetName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UtilsTests.ContextTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddGet">
+                  </a> <!-- testAddGet -->
+                  <span class="method-name">testAddGet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.MessageSystemTests.MsgStartGameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMsgStartGame">
+                  </a> <!-- testMsgStartGame -->
+                  <span class="method-name">testMsgStartGame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DatabaseTests.UsersDataSetTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetId">
+                  </a> <!-- testGetId -->
+                  <span class="method-name">testGetId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetName">
+                  </a> <!-- testGetName -->
+                  <span class="method-name">testGetName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.GameMechanicTests.GameMechanicsImplTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDoProgress">
+                  </a> <!-- testDoProgress -->
+                  <span class="method-name">testDoProgress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAddress">
+                  </a> <!-- testGetAddress -->
+                  <span class="method-name">testGetAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSetName">
+                  </a> <!-- testGetSetName -->
+                  <span class="method-name">testGetSetName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStartGame">
+                  </a> <!-- testStartGame -->
+                  <span class="method-name">testStartGame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.MessageSystemTests.MsgUpdateUserIdTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateMsgUserUpdate">
+                  </a> <!-- testCreateMsgUserUpdate -->
+                  <span class="method-name">testCreateMsgUserUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.MessageSystemTests.MsgAddUserIdTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateMsg">
+                  </a> <!-- testCreateMsg -->
+                  <span class="method-name">testCreateMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.MessageSystemTests.AddressServiceImplTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSetAddress">
+                  </a> <!-- testGetSetAddress -->
+                  <span class="method-name">testGetSetAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.MessageSystemTests.MsgGetUserIdTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateMsgGetUser">
+                  </a> <!-- testCreateMsgGetUser -->
+                  <span class="method-name">testCreateMsgGetUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.FrontendTests.UserSessionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserSessionTest">
+                  </a> <!-- createUserSessionTest -->
+                  <span class="method-name">createUserSessionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.FrontendTests.FrontendImplTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDoAuthentification">
+                  </a> <!-- testDoAuthentification -->
+                  <span class="method-name">testDoAuthentification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAddress">
+                  </a> <!-- testGetAddress -->
+                  <span class="method-name">testGetAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetName">
+                  </a> <!-- testGetName -->
+                  <span class="method-name">testGetName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHandle">
+                  </a> <!-- testHandle -->
+                  <span class="method-name">testHandle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReplicateFromGM">
+                  </a> <!-- testReplicateFromGM -->
+                  <span class="method-name">testReplicateFromGM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetName">
+                  </a> <!-- testSetName -->
+                  <span class="method-name">testSetName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShowStartedGame">
+                  </a> <!-- testShowStartedGame -->
+                  <span class="method-name">testShowStartedGame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStartGame">
+                  </a> <!-- testStartGame -->
+                  <span class="method-name">testStartGame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUserId">
+                  </a> <!-- testUpdateUserId -->
+                  <span class="method-name">testUpdateUserId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.MessageSystemTests.MsgGameStartedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateMsgGameStarted">
+                  </a> <!-- testCreateMsgGameStarted -->
+                  <span class="method-name">testCreateMsgGameStarted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.GameMechanicTests.GameSessionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGameSession">
+                  </a> <!-- testGameSession -->
+                  <span class="method-name">testGameSession</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UtilsTests.ReflectionHelperTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateInstance">
+                  </a> <!-- testCreateInstance -->
+                  <span class="method-name">testCreateInstance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetFieldValue">
+                  </a> <!-- testSetFieldValue -->
+                  <span class="method-name">testSetFieldValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ResourceTests.ResourceSystemImplTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetResource">
+                  </a> <!-- testGetResource -->
+                  <span class="method-name">testGetResource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoadResources">
+                  </a> <!-- testLoadResources -->
+                  <span class="method-name">testLoadResources</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ResourceTests.DbConnectionResourceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHibernateDialect">
+                  </a> <!-- testHibernateDialect -->
+                  <span class="method-name">testHibernateDialect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetDriver">
+                  </a> <!-- testSetDriver -->
+                  <span class="method-name">testSetDriver</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetHibernateHbm2ddlAuto">
+                  </a> <!-- testSetHibernateHbm2ddlAuto -->
+                  <span class="method-name">testSetHibernateHbm2ddlAuto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetPassword">
+                  </a> <!-- testSetPassword -->
+                  <span class="method-name">testSetPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetURL">
+                  </a> <!-- testSetURL -->
+                  <span class="method-name">testSetURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetUsername">
+                  </a> <!-- testSetUsername -->
+                  <span class="method-name">testSetUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.FrontendTests.PageGeneratorImplTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerateGamePage">
+                  </a> <!-- testGenerateGamePage -->
+                  <span class="method-name">testGenerateGamePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerateResponsePage">
+                  </a> <!-- testGenerateResponsePage -->
+                  <span class="method-name">testGenerateResponsePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerateResponseRegistrPage">
+                  </a> <!-- testGenerateResponseRegistrPage -->
+                  <span class="method-name">testGenerateResponseRegistrPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.DatabaseTests.UsersDataSetTest&quot;/&gt;
+      &lt;class name=&quot;tests.DatabaseTests.DatabaseServiceMockTest&quot;/&gt;
+      &lt;class name=&quot;tests.FrontendTests.PageGeneratorImplTest&quot;/&gt;
+      &lt;class name=&quot;tests.FrontendTests.UserSessionTest&quot;/&gt;
+      &lt;class name=&quot;tests.FrontendTests.FrontendImplTest&quot;/&gt;
+      &lt;class name=&quot;tests.MessageSystemTests.MsgStartGameTest&quot;/&gt;
+      &lt;class name=&quot;tests.MessageSystemTests.MsgGameStartedTest&quot;/&gt;
+      &lt;class name=&quot;tests.MessageSystemTests.AddressServiceImplTest&quot;/&gt;
+      &lt;class name=&quot;tests.MessageSystemTests.MsgAddUserIdTest&quot;/&gt;
+      &lt;class name=&quot;tests.MessageSystemTests.MsgGetUserIdTest&quot;/&gt;
+      &lt;class name=&quot;tests.MessageSystemTests.MsgUpdateUserIdTest&quot;/&gt;
+      &lt;class name=&quot;tests.MessageSystemTests.MsgClickTest&quot;/&gt;
+      &lt;class name=&quot;tests.MessageSystemTests.MessageSystemImplTest&quot;/&gt;
+      &lt;class name=&quot;tests.GameMechanicTests.GameSessionTest&quot;/&gt;
+      &lt;class name=&quot;tests.GameMechanicTests.GameMechanicsImplTest&quot;/&gt;
+      &lt;class name=&quot;tests.GameMechanicTests.GameStateTest&quot;/&gt;
+      &lt;class name=&quot;tests.ResourceTests.ResourceSystemImplTest&quot;/&gt;
+      &lt;class name=&quot;tests.ResourceTests.DbConnectionResourceTest&quot;/&gt;
+      &lt;class name=&quot;tests.UtilsTests.ReflectionHelperTest&quot;/&gt;
+      &lt;class name=&quot;tests.UtilsTests.ContextTest&quot;/&gt;
+      &lt;class name=&quot;tests.UtilsTests.LongIdTest&quot;/&gt;
+      &lt;class name=&quot;tests.UtilsTests.VFSImplTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (22 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(50);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAddUser')
+data.setCell(0, 2, 'tests.DatabaseTests.DatabaseServiceMockTest')
+data.setCell(0, 3, 1001);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testFindUser')
+data.setCell(1, 2, 'tests.DatabaseTests.DatabaseServiceMockTest')
+data.setCell(1, 3, 1000);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCreateInstance')
+data.setCell(2, 2, 'tests.UtilsTests.ReflectionHelperTest')
+data.setCell(2, 3, 9);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testStartGame')
+data.setCell(3, 2, 'tests.FrontendTests.FrontendImplTest')
+data.setCell(3, 3, 8);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testDoAuthentification')
+data.setCell(4, 2, 'tests.FrontendTests.FrontendImplTest')
+data.setCell(4, 3, 8);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testGenerateResponsePage')
+data.setCell(5, 2, 'tests.FrontendTests.PageGeneratorImplTest')
+data.setCell(5, 3, 6);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testGenerateGamePage')
+data.setCell(6, 2, 'tests.FrontendTests.PageGeneratorImplTest')
+data.setCell(6, 3, 6);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGenerateResponseRegistrPage')
+data.setCell(7, 2, 'tests.FrontendTests.PageGeneratorImplTest')
+data.setCell(7, 3, 5);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testHandle')
+data.setCell(8, 2, 'tests.FrontendTests.FrontendImplTest')
+data.setCell(8, 3, 3);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testStartGame')
+data.setCell(9, 2, 'tests.GameMechanicTests.GameMechanicsImplTest')
+data.setCell(9, 3, 3);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testGetBytes')
+data.setCell(10, 2, 'tests.UtilsTests.VFSImplTest')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testLoadResources')
+data.setCell(11, 2, 'tests.ResourceTests.ResourceSystemImplTest')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testGetResource')
+data.setCell(12, 2, 'tests.ResourceTests.ResourceSystemImplTest')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'createUserSessionTest')
+data.setCell(13, 2, 'tests.FrontendTests.UserSessionTest')
+data.setCell(13, 3, 2);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testGetSetAddress')
+data.setCell(14, 2, 'tests.MessageSystemTests.AddressServiceImplTest')
+data.setCell(14, 3, 2);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testGetAddress')
+data.setCell(15, 2, 'tests.FrontendTests.FrontendImplTest')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testReplicateFromGM')
+data.setCell(16, 2, 'tests.FrontendTests.FrontendImplTest')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testGetSetName')
+data.setCell(17, 2, 'tests.DatabaseTests.DatabaseServiceMockTest')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testSetHibernateHbm2ddlAuto')
+data.setCell(18, 2, 'tests.ResourceTests.DbConnectionResourceTest')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testGetId')
+data.setCell(19, 2, 'tests.DatabaseTests.UsersDataSetTest')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testShowStartedGame')
+data.setCell(20, 2, 'tests.FrontendTests.FrontendImplTest')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testSetUsername')
+data.setCell(21, 2, 'tests.ResourceTests.DbConnectionResourceTest')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testGetUTF8Text')
+data.setCell(22, 2, 'tests.UtilsTests.VFSImplTest')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testCreateMsg')
+data.setCell(23, 2, 'tests.MessageSystemTests.MsgAddUserIdTest')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testDoProgress')
+data.setCell(24, 2, 'tests.GameMechanicTests.GameMechanicsImplTest')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testEquals')
+data.setCell(25, 2, 'tests.UtilsTests.LongIdTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testGameSession')
+data.setCell(26, 2, 'tests.GameMechanicTests.GameSessionTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testSetFieldValue')
+data.setCell(27, 2, 'tests.UtilsTests.ReflectionHelperTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testAddGet')
+data.setCell(28, 2, 'tests.UtilsTests.ContextTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testSetName')
+data.setCell(29, 2, 'tests.FrontendTests.FrontendImplTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testCreateMsgGameStarted')
+data.setCell(30, 2, 'tests.MessageSystemTests.MsgGameStartedTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testSetDriver')
+data.setCell(31, 2, 'tests.ResourceTests.DbConnectionResourceTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testGetAddress')
+data.setCell(32, 2, 'tests.GameMechanicTests.GameMechanicsImplTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testGetLong')
+data.setCell(33, 2, 'tests.UtilsTests.LongIdTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testSetURL')
+data.setCell(34, 2, 'tests.ResourceTests.DbConnectionResourceTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testGetName')
+data.setCell(35, 2, 'tests.DatabaseTests.UsersDataSetTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testGetName')
+data.setCell(36, 2, 'tests.FrontendTests.FrontendImplTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testAddServiceAndGetQueue')
+data.setCell(37, 2, 'tests.MessageSystemTests.MessageSystemImplTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testMainFunctions')
+data.setCell(38, 2, 'tests.UtilsTests.VFSImplTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testHashCode')
+data.setCell(39, 2, 'tests.UtilsTests.LongIdTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testSetPassword')
+data.setCell(40, 2, 'tests.ResourceTests.DbConnectionResourceTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testHibernateDialect')
+data.setCell(41, 2, 'tests.ResourceTests.DbConnectionResourceTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testUpdateUserId')
+data.setCell(42, 2, 'tests.FrontendTests.FrontendImplTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testGetSetName')
+data.setCell(43, 2, 'tests.GameMechanicTests.GameMechanicsImplTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testMsgClickCreate')
+data.setCell(44, 2, 'tests.MessageSystemTests.MsgClickTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testSendMessage')
+data.setCell(45, 2, 'tests.MessageSystemTests.MessageSystemImplTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testCreateMsgGetUser')
+data.setCell(46, 2, 'tests.MessageSystemTests.MsgGetUserIdTest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testCreateMsgUserUpdate')
+data.setCell(47, 2, 'tests.MessageSystemTests.MsgUpdateUserIdTest')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testMsgStartGame')
+data.setCell(48, 2, 'tests.MessageSystemTests.MsgStartGameTest')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testFileIterator')
+data.setCell(49, 2, 'tests.UtilsTests.VFSImplTest')
+data.setCell(49, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ResourceTests.DbConnectionResourceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FrontendTests.PageGeneratorImplTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MessageSystemTests.AddressServiceImplTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">248 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGetSetAddress</span>
+                <span class="method-start">338 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UtilsTests.ContextTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddGet</span>
+                <span class="method-start">340 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DatabaseTests.DatabaseServiceMockTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">340 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGetSetName</span>
+                <span class="method-start">360 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ResourceTests.DbConnectionResourceTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testHibernateDialect</span>
+                <span class="method-start">362 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetDriver</span>
+                <span class="method-start">362 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetHibernateHbm2ddlAuto</span>
+                <span class="method-start">362 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetPassword</span>
+                <span class="method-start">363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetURL</span>
+                <span class="method-start">363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetUsername</span>
+                <span class="method-start">363 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FrontendTests.FrontendImplTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">364 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDoAuthentification</span>
+                <span class="method-start">379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetAddress</span>
+                <span class="method-start">387 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetName</span>
+                <span class="method-start">388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHandle</span>
+                <span class="method-start">389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetName</span>
+                <span class="method-start">392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testShowStartedGame</span>
+                <span class="method-start">392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStartGame</span>
+                <span class="method-start">393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUserId</span>
+                <span class="method-start">401 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.GameMechanicTests.GameMechanicsImplTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">401 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGetAddress</span>
+                <span class="method-start">404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSetName</span>
+                <span class="method-start">404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStartGame</span>
+                <span class="method-start">404 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.GameMechanicTests.GameSessionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">407 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGameSession</span>
+                <span class="method-start">409 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MessageSystemTests.MsgAddUserIdTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateMsg</span>
+                <span class="method-start">409 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MessageSystemTests.MsgGameStartedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateMsgGameStarted</span>
+                <span class="method-start">410 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MessageSystemTests.MsgGetUserIdTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateMsgGetUser</span>
+                <span class="method-start">410 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MessageSystemTests.MsgStartGameTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMsgStartGame</span>
+                <span class="method-start">410 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MessageSystemTests.MsgUpdateUserIdTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateMsgUserUpdate</span>
+                <span class="method-start">411 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FrontendTests.PageGeneratorImplTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGenerateGamePage</span>
+                <span class="method-start">411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGenerateResponsePage</span>
+                <span class="method-start">417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGenerateResponseRegistrPage</span>
+                <span class="method-start">423 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UtilsTests.ReflectionHelperTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateInstance</span>
+                <span class="method-start">428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetFieldValue</span>
+                <span class="method-start">437 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ResourceTests.ResourceSystemImplTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">437 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGetResource</span>
+                <span class="method-start">438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoadResources</span>
+                <span class="method-start">440 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FrontendTests.UserSessionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createUserSessionTest</span>
+                <span class="method-start">442 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DatabaseTests.UsersDataSetTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetId</span>
+                <span class="method-start">444 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetName</span>
+                <span class="method-start">445 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MessageSystemTests.MsgClickTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMsgClickCreate</span>
+                <span class="method-start">445 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UtilsTests.LongIdTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testEquals</span>
+                <span class="method-start">445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetLong</span>
+                <span class="method-start">446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHashCode</span>
+                <span class="method-start">446 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MessageSystemTests.MessageSystemImplTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">446 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSendMessage</span>
+                <span class="method-start">447 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddServiceAndGetQueue</span>
+                <span class="method-start">448 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UtilsTests.VFSImplTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetBytes</span>
+                <span class="method-start">448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUTF8Text</span>
+                <span class="method-start">450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFileIterator</span>
+                <span class="method-start">452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMainFunctions</span>
+                <span class="method-start">452 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DatabaseTests.DatabaseServiceMockTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddUser</span>
+                <span class="method-start">454 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindUser</span>
+                <span class="method-start">1457 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FrontendTests.FrontendImplTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testReplicateFromGM</span>
+                <span class="method-start">2459 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.GameMechanicTests.GameMechanicsImplTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDoProgress</span>
+                <span class="method-start">2461 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,329 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>50/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 23 20:53:50 MSK 2013</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2463 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.FrontendTests.UserSessionTest.createUserSessionTest()'><b>createUserSessionTest</b><br>Test class: tests.FrontendTests.UserSessionTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FrontendTests.UserSessionTest@73d0a8dc</td></tr>
+<tr>
+<td title='tests.UtilsTests.ContextTest.testAddGet()'><b>testAddGet</b><br>Test class: tests.UtilsTests.ContextTest</td>
+<td></td>
+<td>0</td>
+<td>tests.UtilsTests.ContextTest@ce38207</td></tr>
+<tr>
+<td title='tests.MessageSystemTests.MessageSystemImplTest.testAddServiceAndGetQueue()'><b>testAddServiceAndGetQueue</b><br>Test class: tests.MessageSystemTests.MessageSystemImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.MessageSystemTests.MessageSystemImplTest@7308c5c</td></tr>
+<tr>
+<td title='tests.DatabaseTests.DatabaseServiceMockTest.testAddUser()'><b>testAddUser</b><br>Test class: tests.DatabaseTests.DatabaseServiceMockTest</td>
+<td></td>
+<td>1</td>
+<td>tests.DatabaseTests.DatabaseServiceMockTest@44eefb4</td></tr>
+<tr>
+<td title='tests.UtilsTests.ReflectionHelperTest.testCreateInstance()'><b>testCreateInstance</b><br>Test class: tests.UtilsTests.ReflectionHelperTest</td>
+<td></td>
+<td>0</td>
+<td>tests.UtilsTests.ReflectionHelperTest@6a19a1d7</td></tr>
+<tr>
+<td title='tests.MessageSystemTests.MsgAddUserIdTest.testCreateMsg()'><b>testCreateMsg</b><br>Test class: tests.MessageSystemTests.MsgAddUserIdTest</td>
+<td></td>
+<td>0</td>
+<td>tests.MessageSystemTests.MsgAddUserIdTest@73afe733</td></tr>
+<tr>
+<td title='tests.MessageSystemTests.MsgGameStartedTest.testCreateMsgGameStarted()'><b>testCreateMsgGameStarted</b><br>Test class: tests.MessageSystemTests.MsgGameStartedTest</td>
+<td></td>
+<td>0</td>
+<td>tests.MessageSystemTests.MsgGameStartedTest@7fe3eeb</td></tr>
+<tr>
+<td title='tests.MessageSystemTests.MsgGetUserIdTest.testCreateMsgGetUser()'><b>testCreateMsgGetUser</b><br>Test class: tests.MessageSystemTests.MsgGetUserIdTest</td>
+<td></td>
+<td>0</td>
+<td>tests.MessageSystemTests.MsgGetUserIdTest@46d3d145</td></tr>
+<tr>
+<td title='tests.MessageSystemTests.MsgUpdateUserIdTest.testCreateMsgUserUpdate()'><b>testCreateMsgUserUpdate</b><br>Test class: tests.MessageSystemTests.MsgUpdateUserIdTest</td>
+<td></td>
+<td>0</td>
+<td>tests.MessageSystemTests.MsgUpdateUserIdTest@5247fb00</td></tr>
+<tr>
+<td title='tests.FrontendTests.FrontendImplTest.testDoAuthentification()'><b>testDoAuthentification</b><br>Test class: tests.FrontendTests.FrontendImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FrontendTests.FrontendImplTest@7c502d56</td></tr>
+<tr>
+<td title='tests.GameMechanicTests.GameMechanicsImplTest.testDoProgress()'><b>testDoProgress</b><br>Test class: tests.GameMechanicTests.GameMechanicsImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.GameMechanicTests.GameMechanicsImplTest@64f40c1f</td></tr>
+<tr>
+<td title='tests.UtilsTests.LongIdTest.testEquals()'><b>testEquals</b><br>Test class: tests.UtilsTests.LongIdTest</td>
+<td></td>
+<td>0</td>
+<td>tests.UtilsTests.LongIdTest@9cdc393</td></tr>
+<tr>
+<td title='tests.UtilsTests.VFSImplTest.testFileIterator()'><b>testFileIterator</b><br>Test class: tests.UtilsTests.VFSImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.UtilsTests.VFSImplTest@c089e41</td></tr>
+<tr>
+<td title='tests.DatabaseTests.DatabaseServiceMockTest.testFindUser()'><b>testFindUser</b><br>Test class: tests.DatabaseTests.DatabaseServiceMockTest</td>
+<td></td>
+<td>1</td>
+<td>tests.DatabaseTests.DatabaseServiceMockTest@44eefb4</td></tr>
+<tr>
+<td title='tests.GameMechanicTests.GameSessionTest.testGameSession()'><b>testGameSession</b><br>Test class: tests.GameMechanicTests.GameSessionTest</td>
+<td></td>
+<td>0</td>
+<td>tests.GameMechanicTests.GameSessionTest@44d4ba66</td></tr>
+<tr>
+<td title='tests.FrontendTests.PageGeneratorImplTest.testGenerateGamePage()'><b>testGenerateGamePage</b><br>Test class: tests.FrontendTests.PageGeneratorImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FrontendTests.PageGeneratorImplTest@262b415</td></tr>
+<tr>
+<td title='tests.FrontendTests.PageGeneratorImplTest.testGenerateResponsePage()'><b>testGenerateResponsePage</b><br>Test class: tests.FrontendTests.PageGeneratorImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FrontendTests.PageGeneratorImplTest@262b415</td></tr>
+<tr>
+<td title='tests.FrontendTests.PageGeneratorImplTest.testGenerateResponseRegistrPage()'><b>testGenerateResponseRegistrPage</b><br>Test class: tests.FrontendTests.PageGeneratorImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FrontendTests.PageGeneratorImplTest@262b415</td></tr>
+<tr>
+<td title='tests.FrontendTests.FrontendImplTest.testGetAddress()'><b>testGetAddress</b><br>Test class: tests.FrontendTests.FrontendImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FrontendTests.FrontendImplTest@7c502d56</td></tr>
+<tr>
+<td title='tests.GameMechanicTests.GameMechanicsImplTest.testGetAddress()'><b>testGetAddress</b><br>Test class: tests.GameMechanicTests.GameMechanicsImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.GameMechanicTests.GameMechanicsImplTest@64f40c1f</td></tr>
+<tr>
+<td title='tests.UtilsTests.VFSImplTest.testGetBytes()'><b>testGetBytes</b><br>Test class: tests.UtilsTests.VFSImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.UtilsTests.VFSImplTest@c089e41</td></tr>
+<tr>
+<td title='tests.DatabaseTests.UsersDataSetTest.testGetId()'><b>testGetId</b><br>Test class: tests.DatabaseTests.UsersDataSetTest</td>
+<td></td>
+<td>0</td>
+<td>tests.DatabaseTests.UsersDataSetTest@512f0124</td></tr>
+<tr>
+<td title='tests.UtilsTests.LongIdTest.testGetLong()'><b>testGetLong</b><br>Test class: tests.UtilsTests.LongIdTest</td>
+<td></td>
+<td>0</td>
+<td>tests.UtilsTests.LongIdTest@9cdc393</td></tr>
+<tr>
+<td title='tests.FrontendTests.FrontendImplTest.testGetName()'><b>testGetName</b><br>Test class: tests.FrontendTests.FrontendImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FrontendTests.FrontendImplTest@7c502d56</td></tr>
+<tr>
+<td title='tests.DatabaseTests.UsersDataSetTest.testGetName()'><b>testGetName</b><br>Test class: tests.DatabaseTests.UsersDataSetTest</td>
+<td></td>
+<td>0</td>
+<td>tests.DatabaseTests.UsersDataSetTest@512f0124</td></tr>
+<tr>
+<td title='tests.ResourceTests.ResourceSystemImplTest.testGetResource()'><b>testGetResource</b><br>Test class: tests.ResourceTests.ResourceSystemImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ResourceTests.ResourceSystemImplTest@38d060ac</td></tr>
+<tr>
+<td title='tests.MessageSystemTests.AddressServiceImplTest.testGetSetAddress()'><b>testGetSetAddress</b><br>Test class: tests.MessageSystemTests.AddressServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.MessageSystemTests.AddressServiceImplTest@2174009b</td></tr>
+<tr>
+<td title='tests.DatabaseTests.DatabaseServiceMockTest.testGetSetName()'><b>testGetSetName</b><br>Test class: tests.DatabaseTests.DatabaseServiceMockTest</td>
+<td></td>
+<td>0</td>
+<td>tests.DatabaseTests.DatabaseServiceMockTest@44eefb4</td></tr>
+<tr>
+<td title='tests.GameMechanicTests.GameMechanicsImplTest.testGetSetName()'><b>testGetSetName</b><br>Test class: tests.GameMechanicTests.GameMechanicsImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.GameMechanicTests.GameMechanicsImplTest@64f40c1f</td></tr>
+<tr>
+<td title='tests.UtilsTests.VFSImplTest.testGetUTF8Text()'><b>testGetUTF8Text</b><br>Test class: tests.UtilsTests.VFSImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.UtilsTests.VFSImplTest@c089e41</td></tr>
+<tr>
+<td title='tests.FrontendTests.FrontendImplTest.testHandle()'><b>testHandle</b><br>Test class: tests.FrontendTests.FrontendImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FrontendTests.FrontendImplTest@7c502d56</td></tr>
+<tr>
+<td title='tests.UtilsTests.LongIdTest.testHashCode()'><b>testHashCode</b><br>Test class: tests.UtilsTests.LongIdTest</td>
+<td></td>
+<td>0</td>
+<td>tests.UtilsTests.LongIdTest@9cdc393</td></tr>
+<tr>
+<td title='tests.ResourceTests.DbConnectionResourceTest.testHibernateDialect()'><b>testHibernateDialect</b><br>Test class: tests.ResourceTests.DbConnectionResourceTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ResourceTests.DbConnectionResourceTest@787ad957</td></tr>
+<tr>
+<td title='tests.ResourceTests.ResourceSystemImplTest.testLoadResources()'><b>testLoadResources</b><br>Test class: tests.ResourceTests.ResourceSystemImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ResourceTests.ResourceSystemImplTest@38d060ac</td></tr>
+<tr>
+<td title='tests.UtilsTests.VFSImplTest.testMainFunctions()'><b>testMainFunctions</b><br>Test class: tests.UtilsTests.VFSImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.UtilsTests.VFSImplTest@c089e41</td></tr>
+<tr>
+<td title='tests.MessageSystemTests.MsgClickTest.testMsgClickCreate()'><b>testMsgClickCreate</b><br>Test class: tests.MessageSystemTests.MsgClickTest</td>
+<td></td>
+<td>0</td>
+<td>tests.MessageSystemTests.MsgClickTest@23e2ecec</td></tr>
+<tr>
+<td title='tests.MessageSystemTests.MsgStartGameTest.testMsgStartGame()'><b>testMsgStartGame</b><br>Test class: tests.MessageSystemTests.MsgStartGameTest</td>
+<td></td>
+<td>0</td>
+<td>tests.MessageSystemTests.MsgStartGameTest@2c6da02d</td></tr>
+<tr>
+<td title='tests.FrontendTests.FrontendImplTest.testReplicateFromGM()'><b>testReplicateFromGM</b><br>Test class: tests.FrontendTests.FrontendImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FrontendTests.FrontendImplTest@7c502d56</td></tr>
+<tr>
+<td title='tests.MessageSystemTests.MessageSystemImplTest.testSendMessage()'><b>testSendMessage</b><br>Test class: tests.MessageSystemTests.MessageSystemImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.MessageSystemTests.MessageSystemImplTest@7308c5c</td></tr>
+<tr>
+<td title='tests.ResourceTests.DbConnectionResourceTest.testSetDriver()'><b>testSetDriver</b><br>Test class: tests.ResourceTests.DbConnectionResourceTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ResourceTests.DbConnectionResourceTest@787ad957</td></tr>
+<tr>
+<td title='tests.UtilsTests.ReflectionHelperTest.testSetFieldValue()'><b>testSetFieldValue</b><br>Test class: tests.UtilsTests.ReflectionHelperTest</td>
+<td></td>
+<td>0</td>
+<td>tests.UtilsTests.ReflectionHelperTest@6a19a1d7</td></tr>
+<tr>
+<td title='tests.ResourceTests.DbConnectionResourceTest.testSetHibernateHbm2ddlAuto()'><b>testSetHibernateHbm2ddlAuto</b><br>Test class: tests.ResourceTests.DbConnectionResourceTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ResourceTests.DbConnectionResourceTest@787ad957</td></tr>
+<tr>
+<td title='tests.FrontendTests.FrontendImplTest.testSetName()'><b>testSetName</b><br>Test class: tests.FrontendTests.FrontendImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FrontendTests.FrontendImplTest@7c502d56</td></tr>
+<tr>
+<td title='tests.ResourceTests.DbConnectionResourceTest.testSetPassword()'><b>testSetPassword</b><br>Test class: tests.ResourceTests.DbConnectionResourceTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ResourceTests.DbConnectionResourceTest@787ad957</td></tr>
+<tr>
+<td title='tests.ResourceTests.DbConnectionResourceTest.testSetURL()'><b>testSetURL</b><br>Test class: tests.ResourceTests.DbConnectionResourceTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ResourceTests.DbConnectionResourceTest@787ad957</td></tr>
+<tr>
+<td title='tests.ResourceTests.DbConnectionResourceTest.testSetUsername()'><b>testSetUsername</b><br>Test class: tests.ResourceTests.DbConnectionResourceTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ResourceTests.DbConnectionResourceTest@787ad957</td></tr>
+<tr>
+<td title='tests.FrontendTests.FrontendImplTest.testShowStartedGame()'><b>testShowStartedGame</b><br>Test class: tests.FrontendTests.FrontendImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FrontendTests.FrontendImplTest@7c502d56</td></tr>
+<tr>
+<td title='tests.FrontendTests.FrontendImplTest.testStartGame()'><b>testStartGame</b><br>Test class: tests.FrontendTests.FrontendImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FrontendTests.FrontendImplTest@7c502d56</td></tr>
+<tr>
+<td title='tests.GameMechanicTests.GameMechanicsImplTest.testStartGame()'><b>testStartGame</b><br>Test class: tests.GameMechanicTests.GameMechanicsImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.GameMechanicTests.GameMechanicsImplTest@64f40c1f</td></tr>
+<tr>
+<td title='tests.FrontendTests.FrontendImplTest.testUpdateUserId()'><b>testUpdateUserId</b><br>Test class: tests.FrontendTests.FrontendImplTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FrontendTests.FrontendImplTest@7c502d56</td></tr>
+</table><p>
+</body>
+</html>

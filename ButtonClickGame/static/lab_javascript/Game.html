@@ -1,0 +1,122 @@
+<html>
+<head>
+<title> Крестики-нолики </title>
+<meta http-equiv="content-type" content="text/html; charset=WINDOWS-1251" />
+<style type="text/css">
+div.pole
+{
+	position: absolute;
+	top: 50px;
+	left: 450px;
+	z-index: 1;
+}
+#scroller_container
+{
+	position: relative;
+	left: 10%;
+	top: 0px;
+	width: 80%;
+	height: 50px;
+	overflow: hidden;
+	color: blue;
+	font-style: italic;
+}
+
+#scroller
+{
+	white-space: nowrap;
+}
+
+div.frame
+{	position: absolute;
+	top: 10%;
+	left: 5%;
+	z-index: 1;
+}
+
+div.text
+{	position: absolute;
+	top: 100px;
+	left: 125px;
+	z-index: 2;
+	color: green;
+	font-size: 19px;
+	font-family: verdana;
+	font-style: italic;}
+
+div.down_text
+{
+	position: absolute;
+	top: 45%;
+	left: 13%;
+	z-index: 2;
+	color: blue;
+	font-size: 19px;
+	font-family: verdana;
+	font-style: italic;
+}
+
+form.reset_button
+
+{	position: absolute;
+	top: 650px;
+	left: 2%;
+	font-style: italic;
+}
+
+</style>
+<script language="JavaScript" type = "text/javascript" src = "Xrest-Null.js"> </script>
+<script language="JavaScript" type = "text/javascript" src = "jquery.js">     </script>
+<script language="JavaScript" type = "text/javascript" src = "jscroller.js">  </script>
+<script language="JavaScript" type = "text/javascript" src = "FlipText.js">   </script>
+<script type="text/javascript">
+$(document).ready (function()    //Добавляем бегущую строку
+		  {
+          $jScroller.add ("#scroller_container", "#scroller", "left", 10, true);
+          $jScroller.start();
+          } );
+starteffect ();
+</script>
+</head>
+<body onload = "FullMas()" background = "Fon.jpg">
+<!-- бегущая строка -->
+
+<div id="scroller_container">
+<div id="scroller">
+<h2>
+Крестики-нолики
+</h2>
+</div>
+</div>
+
+<div class = "frame">
+<image src = "frame.jpg" alt = "frame" width = 330 height = 420>
+</div>
+<div class = "text">
+Это демонстрационный <br> вариант. <br>
+Загрузив полную версию <br> с нашего сайта, <br>
+вы сможете почувствовать <br> все преимущества игры!
+<br> <br> <br> <br> <br>
+</div>
+<div class = "down_text">
+Ссылка для загрузки:
+</div>
+
+
+
+<form class = "reset_button">
+<button name = "button" type = "button" onClick="window.location.reload ()">
+<h1 style = "color: magenta;"> Начать заново</h1> </button>
+</form>
+
+<div class = "pole">
+<image src = "pole.JPG" alt = "pole" width = "600" height = "600" onclick = "TurnPlayer(event)">
+</div>
+
+<div id = "rezult">  <!-- Вывод фишек на экран> -->
+</div>
+
+<div id = "final">
+</div>
+</body>
+</html>

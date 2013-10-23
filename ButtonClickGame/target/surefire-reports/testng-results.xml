@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="50" passed="50">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="2463" started-at="2013-10-23T16:53:50Z" finished-at="2013-10-23T16:53:52Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="2463" started-at="2013-10-23T16:53:50Z" finished-at="2013-10-23T16:53:52Z">
+      <class name="tests.MessageSystemTests.MsgClickTest">
+        <test-method status="PASS" signature="testMsgClickCreate()[pri:0, instance:tests.MessageSystemTests.MsgClickTest@23e2ecec]" name="testMsgClickCreate" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMsgClickCreate -->
+      </class> <!-- tests.MessageSystemTests.MsgClickTest -->
+      <class name="tests.MessageSystemTests.MsgUpdateUserIdTest">
+        <test-method status="PASS" signature="testCreateMsgUserUpdate()[pri:0, instance:tests.MessageSystemTests.MsgUpdateUserIdTest@5247fb00]" name="testCreateMsgUserUpdate" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMsgUserUpdate -->
+      </class> <!-- tests.MessageSystemTests.MsgUpdateUserIdTest -->
+      <class name="tests.ResourceTests.DbConnectionResourceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ResourceTests.DbConnectionResourceTest@787ad957]" name="setUp" is-config="true" duration-ms="7" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.FrontendTests.PageGeneratorImplTest@262b415]" name="setUp" is-config="true" duration-ms="236" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSetDriver()[pri:0, instance:tests.ResourceTests.DbConnectionResourceTest@787ad957]" name="testSetDriver" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetDriver -->
+        <test-method status="PASS" signature="testSetHibernateHbm2ddlAuto()[pri:0, instance:tests.ResourceTests.DbConnectionResourceTest@787ad957]" name="testSetHibernateHbm2ddlAuto" duration-ms="1" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetHibernateHbm2ddlAuto -->
+        <test-method status="PASS" signature="testHibernateDialect()[pri:0, instance:tests.ResourceTests.DbConnectionResourceTest@787ad957]" name="testHibernateDialect" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHibernateDialect -->
+        <test-method status="PASS" signature="testSetUsername()[pri:0, instance:tests.ResourceTests.DbConnectionResourceTest@787ad957]" name="testSetUsername" duration-ms="1" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUsername -->
+        <test-method status="PASS" signature="testSetPassword()[pri:0, instance:tests.ResourceTests.DbConnectionResourceTest@787ad957]" name="testSetPassword" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetPassword -->
+        <test-method status="PASS" signature="testSetURL()[pri:0, instance:tests.ResourceTests.DbConnectionResourceTest@787ad957]" name="testSetURL" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetURL -->
+      </class> <!-- tests.ResourceTests.DbConnectionResourceTest -->
+      <class name="tests.GameMechanicTests.GameSessionTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.GameMechanicTests.GameSessionTest@44d4ba66]" name="setUp" is-config="true" duration-ms="2" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGameSession()[pri:0, instance:tests.GameMechanicTests.GameSessionTest@44d4ba66]" name="testGameSession" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGameSession -->
+      </class> <!-- tests.GameMechanicTests.GameSessionTest -->
+      <class name="tests.UtilsTests.ReflectionHelperTest">
+        <test-method status="PASS" signature="testCreateInstance()[pri:0, instance:tests.UtilsTests.ReflectionHelperTest@6a19a1d7]" name="testCreateInstance" duration-ms="9" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateInstance -->
+        <test-method status="PASS" signature="testSetFieldValue()[pri:0, instance:tests.UtilsTests.ReflectionHelperTest@6a19a1d7]" name="testSetFieldValue" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetFieldValue -->
+      </class> <!-- tests.UtilsTests.ReflectionHelperTest -->
+      <class name="tests.MessageSystemTests.MessageSystemImplTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.MessageSystemTests.MessageSystemImplTest@7308c5c]" name="setUp" is-config="true" duration-ms="1" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSendMessage()[pri:0, instance:tests.MessageSystemTests.MessageSystemImplTest@7308c5c]" name="testSendMessage" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendMessage -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.MessageSystemTests.MessageSystemImplTest@7308c5c]" name="setUp" is-config="true" duration-ms="1" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddServiceAndGetQueue()[pri:0, instance:tests.MessageSystemTests.MessageSystemImplTest@7308c5c]" name="testAddServiceAndGetQueue" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddServiceAndGetQueue -->
+      </class> <!-- tests.MessageSystemTests.MessageSystemImplTest -->
+      <class name="tests.GameMechanicTests.GameMechanicsImplTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.GameMechanicTests.GameMechanicsImplTest@64f40c1f]" name="setUp" is-config="true" duration-ms="3" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetAddress()[pri:0, instance:tests.GameMechanicTests.GameMechanicsImplTest@64f40c1f]" name="testGetAddress" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAddress -->
+        <test-method status="PASS" signature="testStartGame()[pri:0, instance:tests.GameMechanicTests.GameMechanicsImplTest@64f40c1f]" name="testStartGame" duration-ms="3" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartGame -->
+        <test-method status="PASS" signature="testGetSetName()[pri:0, instance:tests.GameMechanicTests.GameMechanicsImplTest@64f40c1f]" name="testGetSetName" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSetName -->
+        <test-method status="PASS" signature="testDoProgress()[pri:0, instance:tests.GameMechanicTests.GameMechanicsImplTest@64f40c1f]" name="testDoProgress" duration-ms="1" started-at="2013-10-23T20:53:52Z" depends-on-methods="tests.GameMechanicTests.GameMechanicsImplTest.testStartGame" finished-at="2013-10-23T20:53:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDoProgress -->
+      </class> <!-- tests.GameMechanicTests.GameMechanicsImplTest -->
+      <class name="tests.MessageSystemTests.AddressServiceImplTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.MessageSystemTests.AddressServiceImplTest@2174009b]" name="setUp" is-config="true" duration-ms="88" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetSetAddress()[pri:0, instance:tests.MessageSystemTests.AddressServiceImplTest@2174009b]" name="testGetSetAddress" duration-ms="2" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSetAddress -->
+      </class> <!-- tests.MessageSystemTests.AddressServiceImplTest -->
+      <class name="tests.UtilsTests.VFSImplTest">
+        <test-method status="PASS" signature="testGetBytes()[pri:0, instance:tests.UtilsTests.VFSImplTest@c089e41]" name="testGetBytes" duration-ms="2" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBytes -->
+        <test-method status="PASS" signature="testGetUTF8Text()[pri:0, instance:tests.UtilsTests.VFSImplTest@c089e41]" name="testGetUTF8Text" duration-ms="1" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUTF8Text -->
+        <test-method status="PASS" signature="testFileIterator()[pri:0, instance:tests.UtilsTests.VFSImplTest@c089e41]" name="testFileIterator" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileIterator -->
+        <test-method status="PASS" signature="testMainFunctions()[pri:0, instance:tests.UtilsTests.VFSImplTest@c089e41]" name="testMainFunctions" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMainFunctions -->
+      </class> <!-- tests.UtilsTests.VFSImplTest -->
+      <class name="tests.MessageSystemTests.MsgAddUserIdTest">
+        <test-method status="PASS" signature="testCreateMsg()[pri:0, instance:tests.MessageSystemTests.MsgAddUserIdTest@73afe733]" name="testCreateMsg" duration-ms="1" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMsg -->
+      </class> <!-- tests.MessageSystemTests.MsgAddUserIdTest -->
+      <class name="tests.FrontendTests.UserSessionTest">
+        <test-method status="PASS" signature="createUserSessionTest()[pri:0, instance:tests.FrontendTests.UserSessionTest@73d0a8dc]" name="createUserSessionTest" duration-ms="2" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserSessionTest -->
+      </class> <!-- tests.FrontendTests.UserSessionTest -->
+      <class name="tests.FrontendTests.FrontendImplTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.FrontendTests.FrontendImplTest@7c502d56]" name="setUp" is-config="true" duration-ms="15" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDoAuthentification()[pri:0, instance:tests.FrontendTests.FrontendImplTest@7c502d56]" name="testDoAuthentification" duration-ms="8" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDoAuthentification -->
+        <test-method status="PASS" signature="testGetAddress()[pri:0, instance:tests.FrontendTests.FrontendImplTest@7c502d56]" name="testGetAddress" duration-ms="1" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAddress -->
+        <test-method status="PASS" signature="testGetName()[pri:0, instance:tests.FrontendTests.FrontendImplTest@7c502d56]" name="testGetName" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetName -->
+        <test-method status="PASS" signature="testHandle()[pri:0, instance:tests.FrontendTests.FrontendImplTest@7c502d56]" name="testHandle" duration-ms="3" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHandle -->
+        <test-method status="PASS" signature="testShowStartedGame()[pri:0, instance:tests.FrontendTests.FrontendImplTest@7c502d56]" name="testShowStartedGame" duration-ms="1" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShowStartedGame -->
+        <test-method status="PASS" signature="testSetName()[pri:0, instance:tests.FrontendTests.FrontendImplTest@7c502d56]" name="testSetName" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetName -->
+        <test-method status="PASS" signature="testStartGame()[pri:0, instance:tests.FrontendTests.FrontendImplTest@7c502d56]" name="testStartGame" duration-ms="8" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartGame -->
+        <test-method status="PASS" signature="testUpdateUserId()[pri:0, instance:tests.FrontendTests.FrontendImplTest@7c502d56]" name="testUpdateUserId" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserId -->
+        <test-method status="PASS" signature="testReplicateFromGM()[pri:0, instance:tests.FrontendTests.FrontendImplTest@7c502d56]" name="testReplicateFromGM" duration-ms="1" started-at="2013-10-23T20:53:52Z" depends-on-methods="tests.FrontendTests.FrontendImplTest.testShowStartedGame" finished-at="2013-10-23T20:53:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReplicateFromGM -->
+      </class> <!-- tests.FrontendTests.FrontendImplTest -->
+      <class name="tests.FrontendTests.PageGeneratorImplTest">
+        <test-method status="PASS" signature="testGenerateGamePage()[pri:0, instance:tests.FrontendTests.PageGeneratorImplTest@262b415]" name="testGenerateGamePage" duration-ms="6" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateGamePage -->
+        <test-method status="PASS" signature="testGenerateResponsePage()[pri:0, instance:tests.FrontendTests.PageGeneratorImplTest@262b415]" name="testGenerateResponsePage" duration-ms="6" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateResponsePage -->
+        <test-method status="PASS" signature="testGenerateResponseRegistrPage()[pri:0, instance:tests.FrontendTests.PageGeneratorImplTest@262b415]" name="testGenerateResponseRegistrPage" duration-ms="5" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateResponseRegistrPage -->
+      </class> <!-- tests.FrontendTests.PageGeneratorImplTest -->
+      <class name="tests.UtilsTests.ContextTest">
+        <test-method status="PASS" signature="testAddGet()[pri:0, instance:tests.UtilsTests.ContextTest@ce38207]" name="testAddGet" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddGet -->
+      </class> <!-- tests.UtilsTests.ContextTest -->
+      <class name="tests.MessageSystemTests.MsgGetUserIdTest">
+        <test-method status="PASS" signature="testCreateMsgGetUser()[pri:0, instance:tests.MessageSystemTests.MsgGetUserIdTest@46d3d145]" name="testCreateMsgGetUser" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMsgGetUser -->
+      </class> <!-- tests.MessageSystemTests.MsgGetUserIdTest -->
+      <class name="tests.ResourceTests.ResourceSystemImplTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ResourceTests.ResourceSystemImplTest@38d060ac]" name="setUp" is-config="true" duration-ms="1" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetResource()[pri:0, instance:tests.ResourceTests.ResourceSystemImplTest@38d060ac]" name="testGetResource" duration-ms="2" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResource -->
+        <test-method status="PASS" signature="testLoadResources()[pri:0, instance:tests.ResourceTests.ResourceSystemImplTest@38d060ac]" name="testLoadResources" duration-ms="2" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadResources -->
+      </class> <!-- tests.ResourceTests.ResourceSystemImplTest -->
+      <class name="tests.MessageSystemTests.MsgGameStartedTest">
+        <test-method status="PASS" signature="testCreateMsgGameStarted()[pri:0, instance:tests.MessageSystemTests.MsgGameStartedTest@7fe3eeb]" name="testCreateMsgGameStarted" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMsgGameStarted -->
+      </class> <!-- tests.MessageSystemTests.MsgGameStartedTest -->
+      <class name="tests.DatabaseTests.DatabaseServiceMockTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.DatabaseTests.DatabaseServiceMockTest@44eefb4]" name="setUp" is-config="true" duration-ms="20" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetSetName()[pri:0, instance:tests.DatabaseTests.DatabaseServiceMockTest@44eefb4]" name="testGetSetName" duration-ms="1" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSetName -->
+        <test-method status="PASS" signature="testAddUser()[pri:0, instance:tests.DatabaseTests.DatabaseServiceMockTest@44eefb4]" name="testAddUser" duration-ms="1001" started-at="2013-10-23T20:53:50Z" depends-on-methods="tests.DatabaseTests.DatabaseServiceMockTest.testGetSetName" finished-at="2013-10-23T20:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddUser -->
+        <test-method status="PASS" signature="testFindUser()[pri:0, instance:tests.DatabaseTests.DatabaseServiceMockTest@44eefb4]" name="testFindUser" duration-ms="1000" started-at="2013-10-23T20:53:51Z" depends-on-methods="tests.DatabaseTests.DatabaseServiceMockTest.testGetSetName" finished-at="2013-10-23T20:53:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindUser -->
+      </class> <!-- tests.DatabaseTests.DatabaseServiceMockTest -->
+      <class name="tests.MessageSystemTests.MsgStartGameTest">
+        <test-method status="PASS" signature="testMsgStartGame()[pri:0, instance:tests.MessageSystemTests.MsgStartGameTest@2c6da02d]" name="testMsgStartGame" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMsgStartGame -->
+      </class> <!-- tests.MessageSystemTests.MsgStartGameTest -->
+      <class name="tests.DatabaseTests.UsersDataSetTest">
+        <test-method status="PASS" signature="testGetId()[pri:0, instance:tests.DatabaseTests.UsersDataSetTest@512f0124]" name="testGetId" duration-ms="1" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetId -->
+        <test-method status="PASS" signature="testGetName()[pri:0, instance:tests.DatabaseTests.UsersDataSetTest@512f0124]" name="testGetName" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetName -->
+      </class> <!-- tests.DatabaseTests.UsersDataSetTest -->
+      <class name="tests.UtilsTests.LongIdTest">
+        <test-method status="PASS" signature="testEquals()[pri:0, instance:tests.UtilsTests.LongIdTest@9cdc393]" name="testEquals" duration-ms="1" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEquals -->
+        <test-method status="PASS" signature="testHashCode()[pri:0, instance:tests.UtilsTests.LongIdTest@9cdc393]" name="testHashCode" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHashCode -->
+        <test-method status="PASS" signature="testGetLong()[pri:0, instance:tests.UtilsTests.LongIdTest@9cdc393]" name="testGetLong" duration-ms="0" started-at="2013-10-23T20:53:50Z" finished-at="2013-10-23T20:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLong -->
+      </class> <!-- tests.UtilsTests.LongIdTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
