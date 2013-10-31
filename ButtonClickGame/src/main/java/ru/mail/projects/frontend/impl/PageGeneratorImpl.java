@@ -220,10 +220,8 @@ public class PageGeneratorImpl implements PageGenerator {
 	
 	public void generateWinPage (UserSession UserSes, HttpServletResponse response,
 			  Request baseRequest) throws IOException {
-		
-		generateHeader (response, baseRequest);
-		
-		response.getWriter().println("<body>");
+
+    	response.getWriter().println("<body>");
 		response.getWriter().println("<h1 align = 'center'>" + UserSes.userName + " Вы выиграли </h1> ");
 		response.getWriter().println("<h2> Вы успели нажать " + UserSes.clickByUser + " раз </h1> ");
 		response.getWriter().println("<h2> Ваш противник " + UserSes.enemyName + 

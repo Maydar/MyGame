@@ -8,11 +8,7 @@ public class ReflectionHelper {
 		Object object =  new Object();
 		try {
 			object = Class.forName(className).newInstance();
-		} catch (InstantiationException e) {
-			e.printStackTrace();
-		} catch (IllegalAccessException e) {
-			e.printStackTrace();
-		} catch (ClassNotFoundException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return object;
@@ -31,18 +27,9 @@ public class ReflectionHelper {
 						field.set(object, Integer.decode(value));
 				}
 				field.setAccessible(false);
-			} catch (NoSuchFieldException e) {
-				e.printStackTrace();
-			} catch (SecurityException e) {
-				e.printStackTrace();
-			} catch (NumberFormatException e) {
-				e.printStackTrace();
-			} catch (IllegalArgumentException e) {
-				e.printStackTrace();
-			} catch (IllegalAccessException e) {
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
-		
 	}
 	
 }

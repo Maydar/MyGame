@@ -73,7 +73,6 @@ public class DatabaseServiceImpl implements Runnable, DatabaseService {
 			double load = deltaTime/TICK_TIME;
 			if(load < 1)
 				ThreadHelper.Sleep(TICK_TIME - deltaTime, log);
-			
 		}
 	}
 	

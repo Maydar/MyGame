@@ -76,6 +76,13 @@ public class DatabaseServiceMockTest {
 
     }
 
+    @Test
+    public void actTest(){
+        DatabaseServiceMock databaseServiceMock = new DatabaseServiceMock(context);
+        msgSystem.addService(databaseServiceMock);
+        Assert.assertFalse(databaseServiceMock.act());
+    }
+
     @Test(dependsOnMethods = { "testGetSetName"})
     public void testAddUser() throws Exception {
         DatabaseServiceMock databaseServiceMock = new DatabaseServiceMock(context);

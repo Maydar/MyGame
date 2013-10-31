@@ -94,9 +94,7 @@ public class PageGeneratorImplTest {
 
         int clickUser = 8;
 
-        try {
-            pageGenerator.generateGamePage(null, mockHttpServletResponse, mockBaseRequest);
-
+            pageGenerator.generateGamePage(mockUsSess, mockHttpServletResponse, mockBaseRequest);
             pageGenerator.generateGamePage(mockUsSess, mockHttpServletResponse, mockBaseRequest);
 
             mockUsSess.clickByUser = clickUser;
@@ -106,15 +104,8 @@ public class PageGeneratorImplTest {
 
             mockUsSess.clickedByEnemy = clickUser + 1;
             pageGenerator.generateGamePage(mockUsSess, mockHttpServletResponse, mockBaseRequest);
-
             mockUsSess.clickedByEnemy = clickUser;
             pageGenerator.generateGamePage(mockUsSess, mockHttpServletResponse, mockBaseRequest);
-        }
-        catch (Exception e) {
-
-        }
-
-
 
     }
 }

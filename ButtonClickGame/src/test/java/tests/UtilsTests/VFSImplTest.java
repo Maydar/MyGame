@@ -13,7 +13,9 @@ public class VFSImplTest {
     public void testMainFunctions() throws Exception {
 
         Assert.assertTrue(vfs.isExist("./src"));
+        Assert.assertFalse(vfs.isExist("./srsdfc"));
         Assert.assertTrue(vfs.isDirectory("./src"));
+        Assert.assertFalse(vfs.isDirectory("./src/test.txt"));
         Assert.assertEquals(vfs.getRoot(), "./resources");
         Assert.assertNotSame(vfs.getAbsolutePath("./src"), "./src");
     }
@@ -40,5 +42,13 @@ public class VFSImplTest {
         vfs.getIterator("./src").remove();
         Assert.assertTrue(vfs.getIterator("./resources/userSess.xml").hasNext());
         Assert.assertNotNull(vfs.getIterator("./src/main").next());
+    }
+
+    @Test
+    public void AbsolutePathTest() throws Exception {
+
+        String abs = vfs.getAbsolutePath("./src/test.txt");
+        Assert.assertTrue(abs.endsWith("./src/test.txt"));
+        Assert.assertTrue(abs.length()>"./src/test.txt".length());
     }
 }

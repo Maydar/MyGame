@@ -3,13 +3,13 @@ package tests.MessageSystemTests;
 import junit.framework.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import ru.mail.projects.base.Frontend;
-import ru.mail.projects.base.GameMechanics;
-import ru.mail.projects.base.MessageSystem;
-import ru.mail.projects.base.Msg;
+import ru.mail.projects.base.*;
 import ru.mail.projects.frontend.impl.FrontendImpl;
 import ru.mail.projects.game.mechanics.impl.GameMechanicsImpl;
 import ru.mail.projects.message.system.impl.MessageSystemImpl;
+import ru.mail.projects.messages.MsgClick;
+import ru.mail.projects.messages.MsgReplicate;
+import ru.mail.projects.messages.MsgToGM;
 import ru.mail.projects.messages.MsgUpdateUserId;
 import ru.mail.projects.utils.Context;
 import ru.mail.projects.utils.LongId;
@@ -35,12 +35,15 @@ public class MessageSystemImplTest {
         frontend = new FrontendImpl(context);
     }
 
+
     @Test
     public void testAddServiceAndGetQueue() throws Exception {
         MessageSystem messageSystem = new MessageSystemImpl();
         messageSystem.addService(gameMechanics);
         messageSystem.addService(frontend);
-
+        Msg msg = new MsgReplicate(frontend.getAddress(), gameMechanics.getAddress());
+        messageSystem.sendMessage(msg);
+        messageSystem.execForAbonent(gameMechanics);
         Assert.assertNotNull(messageSystem.getQueue(frontend.getAddress()));
         Assert.assertNotNull(messageSystem.getQueue(gameMechanics.getAddress()));
 

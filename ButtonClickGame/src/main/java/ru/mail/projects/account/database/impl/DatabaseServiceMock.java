@@ -46,17 +46,23 @@ public class DatabaseServiceMock implements Runnable, DatabaseService {
 	}
 	
 	public void run () {
-		
-		while (true) {
-			long startTime = System.currentTimeMillis();
-			MsgSystem.execForAbonent(this);
-			long deltaTime = System.currentTimeMillis() - startTime;
-			double load = deltaTime/TICK_TIME;
-			if(load < 1)
-				ThreadHelper.Sleep(TICK_TIME - deltaTime, log);
-			
-		}
+        while (true) {
+            act();
+        }
+
 	}
+
+    public boolean act(){
+            long startTime = System.currentTimeMillis();
+            MsgSystem.execForAbonent(this);
+            long deltaTime = System.currentTimeMillis() - startTime;
+            double load = deltaTime/TICK_TIME;
+            if(load < 1){
+                ThreadHelper.Sleep(TICK_TIME - deltaTime, log);
+                return false;
+            }
+        return true;
+    }
 	
 	public Address getAddress () {
 		return AcsAddr;
