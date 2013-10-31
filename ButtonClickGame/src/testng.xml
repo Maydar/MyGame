@@ -24,6 +24,9 @@
       <class name="tests.MessageSystemTests.MsgStartGameTest"/>
       <class name="tests.DatabaseTests.DatabaseServiceMockTest"/>
       <class name="tests.DatabaseTests.UsersDataSetTest"/>
+      <class name="tests.DatabaseTests.UsersDAOTest"/>
+      <class name="tests.DatabaseTests.TExecutorTest"/>
+      <class name="tests.DatabaseTests.DatabaseServiceImplTest"/>
       <class name="tests.UtilsTests.LongIdTest"/>
     </classes>
   </test>
