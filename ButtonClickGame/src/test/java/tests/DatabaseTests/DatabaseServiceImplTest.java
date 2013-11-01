@@ -39,7 +39,8 @@ public class DatabaseServiceImplTest {
     public void getCountTest(){
         DatabaseServiceImpl dbService = new DatabaseServiceImpl(context);
         int x = dbService.count;
-        Assert.assertNotNull(dbService.getAddress());
+        DatabaseServiceImpl dbService2 = new DatabaseServiceImpl(context);
+        Assert.assertEquals(x+1, dbService.count);
 
     }
 }
