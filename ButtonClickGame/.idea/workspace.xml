@@ -2,98 +2,112 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="1bc29358-7f50-4a23-ac27-93a4b1f5036c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/SAX/parser/SaxEmptyHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/account/database/impl/DatabaseServiceCap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/account/database/impl/DatabaseServiceHibernate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/account/database/impl/DatabaseServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/account/database/impl/TExecutor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/account/database/impl/TResultHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/account/database/impl/UsersDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/account/database/impl/UsersDataSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/base/Abonent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/base/Address.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/base/AddressService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/base/DatabaseService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/base/Frontend.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/base/GameMechanics.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/base/GameObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/base/MessageSystem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/base/Msg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/base/PageGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/base/Resource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/base/ResourceSystem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/base/VFS.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/frontend/impl/FrontendImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/frontend/impl/PageGeneratorImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/frontend/impl/UserSession.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/game/mechanics/impl/GameMechanicsImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/game/mechanics/impl/GameSession.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/game/mechanics/impl/GameState.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/main/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/message/system/impl/AddressServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/message/system/impl/MessageSystemImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/messages" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/messages/MsgAddUserId.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/messages/MsgClick.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/messages/MsgGameStarted.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/messages/MsgGetUserId.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/messages/MsgReplicate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/messages/MsgStartGame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/messages/MsgToAccountServ.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/messages/MsgToFrontend.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/messages/MsgToGM.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/messages/MsgUpdateUserId.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/resource/system/impl/ResourceSystemImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/resources/DbConnectionResource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/resources/FieldResource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/resources/TowerResource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/resources/UserSessResource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/tests/DBtests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/tests/FrontendTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/tests/GameMechanicsTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/tests/RStests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/tests/VFSTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/utils/Context.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/utils/GameId.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/utils/LongId.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/utils/ReflectionHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/utils/SessionId.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/utils/ThreadHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/utils/UserId.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/vfs/impl/VFSImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/SAX" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/account" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/account/database" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/frontend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/game" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/account/database/impl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/frontend/impl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/game/mechanics/impl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/message/system/impl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/resource/system/impl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/vfs/impl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/main" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/game/mechanics" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/message" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/SAX/parser" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/resource" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/resources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/message/system" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/resource/system" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/tests" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/utils" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/mail/projects/vfs" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/DbConnection.xml" afterPath="$PROJECT_DIR$/resources/DbConnection.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/userSess.xml" afterPath="$PROJECT_DIR$/resources/userSess.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_14_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_2_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jboss_jboss_common_client_3_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_26.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_3_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_platform_3_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_18.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_4_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_8_1_0_RC5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_1_0_RC5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_1_0_RC5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_8_1_0_RC5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_8_1_0_RC5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_8_1_0_RC5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_1_0_RC5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_8_1_0_RC5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_websocket_8_1_9_v20130131.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_8_1_0_RC5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_annotation_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_ejb_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_transaction_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_2_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_5_6_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_2_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_6_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20080701.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_7_0_0pre0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_7_0_0pre0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_3_0_20100224.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_3_0_7_0_0pre0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_mockito_1_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_support_1_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_core_1_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_testng_1_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_testng_common_1_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_reflect_1_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_android_driver_2_35_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_35_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_35_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_35_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_35_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_35_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_iphone_driver_2_35_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_35_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_35_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_35_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_35_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webbitserver_webbit_0_4_14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.ltk.core.refactoring.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/TExecutorTests.java" afterPath="" />
     </list>
     <ignored path="TowerFight.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383239494818" ignored="false" />
+    <file path="/Dummy.txt" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383294088666" ignored="false" />
     <file path="/pom.xml" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382340735740" ignored="false" />
     <file path="/FrontendTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1381525224938" ignored="false" />
     <file path="/RStests.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1381525763270" ignored="false" />
@@ -139,7 +153,6 @@
     <file path="/MessageSystemImplTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383235662743" ignored="false" />
     <file path="/ReflectionHelperTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382544302342" ignored="false" />
     <file path="/LongId.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382544206400" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382546914951" ignored="false" />
     <file path="/testng.xml" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383244388195" ignored="false" />
     <file path="/DatabaseServiceImpl.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383241791771" ignored="false" />
     <file path="/a.dummy" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383241800948" ignored="false" />
@@ -168,11 +181,11 @@
     <SUITE FILE_PATH="coverage/ButtonClickGame$PageGeneratorImplTest_testGenerateGamePage.coverage" NAME="PageGeneratorImplTest.testGenerateGamePage Coverage Results" MODIFIED="1383233646578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.mail.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ButtonClickGame$_home_timur_Workspace_Testing_MyGame_ButtonClickGame_src_testng_xml.coverage" NAME="$PROJECT_DIR$/src/testng.xml Coverage Results" MODIFIED="1383244393049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>ru.mail.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/ButtonClickGame$DBtests.coverage" NAME="DBtests Coverage Results" MODIFIED="1382375741251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.mail.projects.tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ButtonClickGame$_home_timur_Workspace_Testing_MyGame_ButtonClickGame_src_testng_xml.coverage" NAME="$PROJECT_DIR$/src/testng.xml Coverage Results" MODIFIED="1383244393049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mail.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/ButtonClickGame$VFSImplTest_AbsolutePathTest.coverage" NAME="VFSImplTest.AbsolutePathTest Coverage Results" MODIFIED="1383229367599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.mail.projects.*</FILTER>
@@ -192,24 +205,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/tests/GameMechanicTests/GameSessionTest.java" line="2" class="GameSessionTest.java" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -246,6 +241,24 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/tests/GameMechanicTests/GameSessionTest.java" line="2" class="GameSessionTest.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -268,9 +281,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/vfs/impl/VFSImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="55" column="0" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2971#2977#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -287,7 +298,7 @@
       <file leaf-file-name="TExecutor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/TExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="53" selection-start="694" selection-end="694" vertical-scroll-proportion="-0.34375">
+            <state line="88" column="50" selection-start="2368" selection-end="2368" vertical-scroll-proportion="0.5857988">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -299,9 +310,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/TExecutorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="41" column="44" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -314,7 +323,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/git" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitLogSettings">
     <option name="myStructureFilterPaths" />
@@ -325,7 +334,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/UsersDataSetTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/UtilsTests/VFSImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/vfs/impl/VFSImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/utils/ReflectionHelper.java" />
@@ -341,6 +349,7 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/DatabaseServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/TExecutorTest.java" />
         <option value="$PROJECT_DIR$/src/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/TExecutor.java" />
       </list>
     </option>
   </component>
@@ -406,7 +415,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -597,6 +605,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -647,15 +656,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/testng.xml" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
@@ -875,12 +889,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
       <setting name="path" value="" />
@@ -890,22 +898,10 @@
       <setting name="debug" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -930,6 +926,24 @@
       </MavenSettings>
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="GriffonRunConfigurationType" factoryName="Griffon">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -947,17 +961,20 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -988,20 +1005,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1081,24 +1095,6 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1bc29358-7f50-4a23-ac27-93a4b1f5036c" name="Default" comment="" />
@@ -1134,7 +1130,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23314285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398641" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1143,20 +1138,21 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933652" sideWeight="0.73344105" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961375" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27296138" sideWeight="0.62628573" order="0" side_tool="true" content_ui="tabs" x="1297" y="310" width="414" height="628" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16227019" sideWeight="0.73344105" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2334764" sideWeight="0.62628573" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3737143" sideWeight="0.34763232" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3737143" sideWeight="0.34763232" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27296138" sideWeight="0.62628573" order="0" side_tool="true" content_ui="tabs" x="1297" y="310" width="414" height="628" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23314285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39907727" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1225,20 +1221,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rt.jar!/java/sql/Connection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="488" selection-end="488" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rt.jar!/java/sql/PreparedStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="155" selection-end="155" vertical-scroll-proportion="0.09375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/UsersDataSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="13" selection-start="304" selection-end="304" vertical-scroll-proportion="-0.057915058">
@@ -1255,16 +1237,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/frontend/impl/FrontendImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="519" selection-end="519" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="16" column="46" selection-start="519" selection-end="519" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/ResourceTests/DbConnectionResourceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="34" selection-start="847" selection-end="847" vertical-scroll-proportion="0.14925373">
-          <folding />
-        </state>
+        <state line="32" column="34" selection-start="847" selection-end="847" vertical-scroll-proportion="0.14925373" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/UsersDAO.java">
@@ -1294,9 +1272,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/base/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.121703856">
-          <folding />
-        </state>
+        <state line="4" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.121703856" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/DatabaseServiceImpl.java">
@@ -1316,9 +1292,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/vfs/impl/VFSImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="0" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2971#2977#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1332,15 +1306,13 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/TExecutorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="44" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/TExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="53" selection-start="694" selection-end="694" vertical-scroll-proportion="-0.34375">
+        <state line="88" column="50" selection-start="2368" selection-end="2368" vertical-scroll-proportion="0.5857988">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
