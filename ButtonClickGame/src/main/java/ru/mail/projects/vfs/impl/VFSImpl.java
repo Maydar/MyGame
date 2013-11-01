@@ -66,7 +66,7 @@ public class VFSImpl implements VFS {
 				while((currentLineString = br.readLine()) != null)
 					builder.append(currentLineString);
 				br.close();
-				
+
 				//System.out.println(builder.toString());
 				result = builder.toString().getBytes();
 			} catch (FileNotFoundException e) {

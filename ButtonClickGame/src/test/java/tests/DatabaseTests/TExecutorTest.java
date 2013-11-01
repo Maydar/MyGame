@@ -10,6 +10,7 @@ import ru.mail.projects.base.ResourceSystem;
 import ru.mail.projects.resources.DbConnectionResource;
 import ru.mail.projects.utils.Context;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
@@ -40,6 +41,5 @@ public class TExecutorTest {
     public void insertTest(){
         TExecutor tExecutor = new TExecutor();
         tExecutor.insertUser(conn, "Timur");
-
     }
 }

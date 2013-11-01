@@ -13,8 +13,7 @@ public class ReflectionHelperTest {
     @Test
     public void testCreateInstance() throws Exception {
         DatabaseService databaseService;
-        Assert.assertTrue(ReflectionHelper.createInstance("ru.mail.projects.account.database.impl.DatabaseServiceImpl") instanceof Object);
-
+        Assert.assertTrue(ReflectionHelper.createInstance("java.lang.String") instanceof Object);
 
     }
 

@@ -49,14 +49,15 @@ public class DatabaseServiceImpl implements Runnable, DatabaseService {
 		try {
 			String userName = dbConnInfo.getUsername();
 			String password = dbConnInfo.getPassword();
-			String url = dbConnInfo.getUrl(); 
-			driver = (Driver) Class.forName (dbConnInfo.getDriver()).newInstance ();
+			String url = dbConnInfo.getUrl();
+            System.out.print(userName+"   "+password+"   "+url);
+            driver = (Driver) Class.forName (dbConnInfo.getDriver()).newInstance ();
 			DriverManager.registerDriver(driver);
 			conn = DriverManager.getConnection (url, userName, password);
 			uDAO = new UsersDAO (conn);
 		}
 		catch (Exception e) {
-			System.err.println (e.toString());
+			System.out.println (e.toString());
 			e.printStackTrace();
 		}
 		setName("DatabaseService" + id);

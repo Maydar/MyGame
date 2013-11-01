@@ -35,7 +35,7 @@ public class TExecutor {
 				if (result != null) result.close ();
 				if (stmt != null) stmt.close ();
 			}
-			catch (SQLException sqlE) { System.err.println (sqlE.getMessage()); }
+			catch (SQLException sqlE) { System.out.println (sqlE.getMessage()); }
 			return value;
 		}
 	}
@@ -53,14 +53,14 @@ public class TExecutor {
 		
 		catch (SQLException sql) {
 			
-			System.err.println (sql.getMessage());
+			System.out.println (sql.getMessage());
 		}
 		finally {
 			
 			try {
 				if (stmt != null) stmt.close ();
 			}
-			catch (SQLException sqlE) { System.err.println (sqlE.getMessage()); }
+			catch (SQLException sqlE) { System.out.println (sqlE.getMessage()); }
 		}
 	}
 	
@@ -95,7 +95,7 @@ public class TExecutor {
 		}
 		catch (SQLException sql) {
 			
-			System.err.println (sql.getMessage());
+			System.out.println (sql.getMessage());
 		}
 		finally {
 			
@@ -103,7 +103,7 @@ public class TExecutor {
 				if (stmt_win  != null) stmt_win.close ();
 				if (stmt_lost != null) stmt_lost.close ();
 			}
-			catch (SQLException sqlE) { System.err.println (sqlE.getMessage()); }
+			catch (SQLException sqlE) { System.out.println (sqlE.getMessage()); }
 		}
 	}
 }
