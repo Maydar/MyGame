@@ -40,4 +40,11 @@ public class ResourceSystemImplTest {
         resourceSystem.loadResources();
         Assert.assertNotNull(resourceSystem.getResources());
     }
+
+    @Test
+    public void testSet(){
+        UserSessResource uss = new UserSessResource();
+        uss.setHealth(50);
+        Assert.assertEquals(uss.getPlayTime(), 50);
+    }
 }

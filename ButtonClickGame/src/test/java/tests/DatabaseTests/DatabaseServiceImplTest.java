@@ -22,25 +22,21 @@ import static org.mockito.Mockito.when;
 
 
 public class DatabaseServiceImplTest {
+
     private Context context;
-    private ResourceSystem rs;
-    private DbConnectionResource dbconn;
-    private MessageSystem ms;
 
-    @BeforeMethod
-    public void setUp(){
+    @BeforeClass
+    public void setUp() throws Exception {
+        context = new Context();
+        VFS vfs = new VFSImpl("./resources");
+        MessageSystem MsgSys = new MessageSystemImpl();
 
-        context = mock(Context.class);
-        rs = mock(ResourceSystem.class);
-        dbconn = mock(DbConnectionResource.class);
-        ms = mock(MessageSystem.class);
-        when((MessageSystem)context.get(MessageSystem.class)).thenReturn(ms);
-        when(dbconn.getDriver()).thenReturn("com.mysql.jdbc.Driver");
-        when(dbconn.getUsername()).thenReturn("maidar1");
-        when(dbconn.getPassword()).thenReturn("root");
-        when(dbconn.getUrl()).thenReturn("jdbc:mysql://localhost:3306/UsersDb");
-        when(context.get(ResourceSystem.class)).thenReturn(rs);
-        when((DbConnectionResource) rs.getResource("./resources/DbConnection.xml")).thenReturn(dbconn);
+        context.add(VFS.class, vfs);
+        context.add(MessageSystem.class, MsgSys);
+        ResourceSystem rsSystem = new ResourceSystemImpl(vfs);
+        rsSystem.loadResources();
+        context.add(ResourceSystem.class, rsSystem);
+        DatabaseServiceMock dbsm = new DatabaseServiceMock(context);
     }
 
     @Test
@@ -50,5 +46,11 @@ public class DatabaseServiceImplTest {
         DatabaseServiceImpl dbService2 = new DatabaseServiceImpl(context);
         Assert.assertEquals(x+1, dbService.count);
 
+    }
+
+    @Test
+    public void action() {
+        DatabaseServiceImpl dbService = new DatabaseServiceImpl(context);
+        Assert.assertFalse(dbService.act());
     }
 }

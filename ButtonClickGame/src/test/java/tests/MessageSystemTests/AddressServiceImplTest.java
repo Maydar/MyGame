@@ -3,6 +3,7 @@ package tests.MessageSystemTests;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import ru.mail.projects.account.database.impl.DatabaseServiceImpl;
 import ru.mail.projects.account.database.impl.DatabaseServiceMock;
 import ru.mail.projects.base.Address;
 import ru.mail.projects.base.MessageSystem;
@@ -22,10 +23,11 @@ import org.testng.Assert;
 
 public class AddressServiceImplTest {
 
+    private Context context;
 
     @BeforeClass
     public void setUp() throws Exception {
-        Context context = new Context();
+        context = new Context();
         VFS vfs = new VFSImpl("./resources");
         MessageSystem MsgSys = new MessageSystemImpl();
 
@@ -51,11 +53,9 @@ public class AddressServiceImplTest {
 
         addr = addressService.getAddress("GameMechanics", sessionId);
         Assert.assertEquals("GameMechanics" + (sessionId.getLong() % GameMechanicsImpl.count), addressService.getName());
-
+        DatabaseServiceImpl databaseService = new DatabaseServiceImpl(context);
         addr = addressService.getAddress("DatabaseService", sessionId);
-        Assert.assertEquals("DatabaseService" + (sessionId.getLong() % GameMechanicsImpl.count), addressService.getName());
-
+        Assert.assertTrue(addressService.getName().startsWith("DatabaseService"));
     }
-
 
 }

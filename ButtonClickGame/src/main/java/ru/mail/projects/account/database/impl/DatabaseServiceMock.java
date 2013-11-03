@@ -28,8 +28,9 @@ public class DatabaseServiceMock implements Runnable, DatabaseService {
 	private static Integer UserId = new Integer (10);
 	
 	public DatabaseServiceMock(Context context) {
-		
-		MsgSystem = (MessageSystem)context.get(MessageSystem.class);
+
+
+        MsgSystem = (MessageSystem)context.get(MessageSystem.class);
 		data.put("Yura",    1);
 		data.put("Roma",    2);
 		data.put("Valera",  3);
