@@ -10,9 +10,7 @@ public class ThreadHelper {
 		try { Thread.sleep (l); }
 		
 		catch (InterruptedException e) {
-		
 			log.info("Impossible to terminate Thread\n");
-			return;
 		}
 	}
 

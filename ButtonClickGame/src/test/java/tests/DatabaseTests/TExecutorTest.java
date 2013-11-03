@@ -40,6 +40,6 @@ public class TExecutorTest {
     @Test
     public void insertTest(){
         TExecutor tExecutor = new TExecutor();
-        tExecutor.insertUser(conn, "Timur");
+        Assert.assertTrue(tExecutor.insertUser(conn, "Timur"));
     }
 }

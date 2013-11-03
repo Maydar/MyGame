@@ -14,7 +14,7 @@ public class ReflectionHelper {
 		return object;
 	}
 	
-	public static void setFieldValue(Object object, String fieldName, String value) {
+	public static boolean setFieldValue(Object object, String fieldName, String value) {
 		
 			Field field;
 			try {
@@ -27,8 +27,9 @@ public class ReflectionHelper {
 						field.set(object, Integer.decode(value));
 				}
 				field.setAccessible(false);
+                return true;
 			} catch (Exception e) {
-				e.printStackTrace();
+				e.printStackTrace();return false;
 			}
 	}
 	

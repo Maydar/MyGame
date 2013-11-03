@@ -5,10 +5,18 @@ import junit.framework.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.*;
 import ru.mail.projects.account.database.impl.DatabaseServiceImpl;
+import ru.mail.projects.account.database.impl.DatabaseServiceMock;
 import ru.mail.projects.base.MessageSystem;
 import ru.mail.projects.base.ResourceSystem;
+import ru.mail.projects.base.VFS;
+import ru.mail.projects.frontend.impl.FrontendImpl;
+import ru.mail.projects.game.mechanics.impl.GameMechanicsImpl;
+import ru.mail.projects.message.system.impl.MessageSystemImpl;
+import ru.mail.projects.resource.system.impl.ResourceSystemImpl;
 import ru.mail.projects.resources.DbConnectionResource;
 import ru.mail.projects.utils.Context;
+import ru.mail.projects.vfs.impl.VFSImpl;
+
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 

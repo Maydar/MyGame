@@ -26,8 +26,10 @@ public class TExecutor {
 		}
 		catch (SQLException sql) {
 			
-			System.err.println (sql.getMessage());
-			System.err.println ("Error with the query");
+			System.out.println (sql.getMessage());
+			System.out.println ("Error with the query");
+            sql.printStackTrace(System.out);
+
 		}
 		finally {
 			
@@ -40,7 +42,7 @@ public class TExecutor {
 		}
 	}
 	
-	public void insertUser (Connection connection, String UserName) {
+	public boolean insertUser (Connection connection, String UserName) {
 		
 		String insert = "INSERT INTO Users (Name, GameNum, WinNum, LostNum) values (?, 0, 0, 0)";
 		PreparedStatement stmt = null;
@@ -54,14 +56,19 @@ public class TExecutor {
 		catch (SQLException sql) {
 			
 			System.out.println (sql.getMessage());
+            return false;
 		}
 		finally {
 			
 			try {
 				if (stmt != null) stmt.close ();
 			}
-			catch (SQLException sqlE) { System.out.println (sqlE.getMessage()); }
+			catch (SQLException sqlE) {
+                System.out.println (sqlE.getMessage());
+                return false;
+            }
 		}
+        return true;
 	}
 	
 	public void updateStatistics (Connection connection, String User1, String User2, boolean first_win) {

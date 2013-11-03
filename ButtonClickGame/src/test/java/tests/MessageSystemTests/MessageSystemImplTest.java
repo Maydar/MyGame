@@ -62,7 +62,11 @@ public class MessageSystemImplTest {
         Assert.assertNotNull(msgQueue);
         MsgUpdateUserId message = (MsgUpdateUserId)msgQueue.poll();
         Assert.assertEquals(msgUpd, message);
-
+    }
+    @Test
+    public void getAdressServiceTest(){
+        MessageSystemImpl msi = new MessageSystemImpl();
+        Assert.assertTrue(msi.getAddressService() instanceof AddressService);
 
     }
 }

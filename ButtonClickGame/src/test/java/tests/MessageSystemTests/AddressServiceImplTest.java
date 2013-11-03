@@ -51,6 +51,10 @@ public class AddressServiceImplTest {
 
         addr = addressService.getAddress("GameMechanics", sessionId);
         Assert.assertEquals("GameMechanics" + (sessionId.getLong() % GameMechanicsImpl.count), addressService.getName());
+
+        addr = addressService.getAddress("DatabaseService", sessionId);
+        Assert.assertEquals("DatabaseService" + (sessionId.getLong() % GameMechanicsImpl.count), addressService.getName());
+
     }
 
 
