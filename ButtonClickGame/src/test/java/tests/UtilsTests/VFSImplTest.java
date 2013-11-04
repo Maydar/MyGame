@@ -31,6 +31,8 @@ public class VFSImplTest {
     @Test
     public void testGetUTF8Text() throws Exception {
         vfs.getUTF8Text("./src/test.txt");
+        Assert.assertNotNull(vfs.getUTF8Text("./src/test.txt"));
+        Assert.assertNull(vfs.getUTF8Text("./src"));
         Assert.assertNotNull(vfs.getUTF8Text("./resources/userSess.xml"));
     }
 

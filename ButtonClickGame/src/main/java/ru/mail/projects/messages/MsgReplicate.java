@@ -2,6 +2,7 @@ package ru.mail.projects.messages;
 
 import ru.mail.projects.base.Address;
 import ru.mail.projects.base.Frontend;
+import ru.mail.projects.frontend.impl.FrontendImpl;
 
 public class MsgReplicate extends MsgToFrontend {
 
@@ -10,7 +11,7 @@ public class MsgReplicate extends MsgToFrontend {
 		super (from, to);
 	}
 	
-	public void exec (Frontend frontend) {
+	public void exec (FrontendImpl frontend) {
 		
 		frontend.replicateFromGM ();
 	}

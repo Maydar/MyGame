@@ -56,6 +56,14 @@ public class DbConnectionResourceTest {
     }
 
     @Test
+    public void testSetHibernateShowSql() throws Exception {
+
+        String hibernateShowSql = "hibernateSgowSql";
+        dbConnectionResource.setHibernateShowSql(hibernateShowSql);
+        Assert.assertEquals(hibernateShowSql, dbConnectionResource.getHibernateShowSql());
+    }
+
+    @Test
     public void testSetHibernateHbm2ddlAuto() throws Exception {
 
         String HibernateHbm2ddlAuto = "hib_auto";

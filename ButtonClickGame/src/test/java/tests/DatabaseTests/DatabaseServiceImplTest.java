@@ -6,6 +6,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.*;
 import ru.mail.projects.account.database.impl.DatabaseServiceImpl;
 import ru.mail.projects.account.database.impl.DatabaseServiceMock;
+import ru.mail.projects.account.database.impl.UsersDAO;
+import ru.mail.projects.account.database.impl.UsersDataSet;
+import ru.mail.projects.base.Address;
 import ru.mail.projects.base.MessageSystem;
 import ru.mail.projects.base.ResourceSystem;
 import ru.mail.projects.base.VFS;
@@ -15,15 +18,25 @@ import ru.mail.projects.message.system.impl.MessageSystemImpl;
 import ru.mail.projects.resource.system.impl.ResourceSystemImpl;
 import ru.mail.projects.resources.DbConnectionResource;
 import ru.mail.projects.utils.Context;
+import ru.mail.projects.utils.LongId;
+import ru.mail.projects.utils.SessionId;
 import ru.mail.projects.vfs.impl.VFSImpl;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
+import java.sql.SQLException;
 
+import static org.mockito.Mockito.*;
+//import static org.mockito.asm.util.CheckClassAdapter.verify;
 
 public class DatabaseServiceImplTest {
 
     private Context context;
+
+    private UsersDataSet uDataSet;
+    private UsersDAO uDAO;
+    private String uName;
+    private Address to;
+    private LongId<SessionId> sessionId;
+    private DatabaseServiceImpl dbService;
 
     @BeforeClass
     public void setUp() throws Exception {
@@ -37,6 +50,7 @@ public class DatabaseServiceImplTest {
         rsSystem.loadResources();
         context.add(ResourceSystem.class, rsSystem);
         DatabaseServiceMock dbsm = new DatabaseServiceMock(context);
+
     }
 
     @Test
@@ -53,4 +67,5 @@ public class DatabaseServiceImplTest {
         DatabaseServiceImpl dbService = new DatabaseServiceImpl(context);
         Assert.assertFalse(dbService.act());
     }
+
 }

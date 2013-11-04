@@ -3,9 +3,11 @@ package tests.DatabaseTests;
 import junit.framework.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import ru.mail.projects.account.database.impl.TExecutor;
 import ru.mail.projects.account.database.impl.UsersDAO;
 import ru.mail.projects.account.database.impl.UsersDataSet;
 
+import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -25,4 +27,5 @@ public class UsersDAOTest {
         UsersDAO usersDAO = new UsersDAO(conn);
         Assert.assertNull(usersDAO.getByName("Noname!"));
     }
+
 }

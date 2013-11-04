@@ -108,4 +108,5 @@ public class GameMechanicsImplTest {
         Assert.assertEquals(gameMechanics.getAddress(), gameMechanics1.getAddress());
         gameMechanics.endGame();
     }
+
 }

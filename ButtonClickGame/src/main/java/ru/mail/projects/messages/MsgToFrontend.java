@@ -19,5 +19,5 @@ public abstract class MsgToFrontend extends Msg {
 		}
 	}
 	
-	public abstract void exec (Frontend frontend);
+	public abstract void exec (FrontendImpl frontend);
 }

@@ -1,15 +1,18 @@
 package tests.MessageSystemTests;
 
-import junit.framework.Assert;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import ru.mail.projects.base.Address;
+import ru.mail.projects.base.*;
+
 import ru.mail.projects.messages.MsgUpdateUserId;
 import ru.mail.projects.utils.LongId;
 import ru.mail.projects.utils.SessionId;
 import ru.mail.projects.utils.UserId;
+
 public class MsgUpdateUserIdTest {
+
 
     @Test
     public void testCreateMsgUserUpdate() throws Exception {

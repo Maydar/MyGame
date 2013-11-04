@@ -2,46 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bc29358-7f50-4a23-ac27-93a4b1f5036c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/MessageSystemTests/AddressServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/MessageSystemTests/AddressServiceImplTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/DatabaseServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/DatabaseServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/DatabaseServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/DatabaseServiceImplTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/DatabaseServiceMock.java" afterPath="$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/DatabaseServiceMock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/DbConnection.xml" afterPath="$PROJECT_DIR$/resources/DbConnection.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/ResourceTests/DbConnectionResourceTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/ResourceTests/DbConnectionResourceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/mail/projects/game/mechanics/impl/GameMechanicsImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/mail/projects/game/mechanics/impl/GameMechanicsImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/GameMechanicTests/GameMechanicsImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/GameMechanicTests/GameMechanicsImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/mail/projects/messages/MsgGameStarted.java" afterPath="$PROJECT_DIR$/src/main/java/ru/mail/projects/messages/MsgGameStarted.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/mail/projects/messages/MsgReplicate.java" afterPath="$PROJECT_DIR$/src/main/java/ru/mail/projects/messages/MsgReplicate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/mail/projects/messages/MsgToFrontend.java" afterPath="$PROJECT_DIR$/src/main/java/ru/mail/projects/messages/MsgToFrontend.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/mail/projects/messages/MsgUpdateUserId.java" afterPath="$PROJECT_DIR$/src/main/java/ru/mail/projects/messages/MsgUpdateUserId.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/MessageSystemTests/MsgUpdateUserIdTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/MessageSystemTests/MsgUpdateUserIdTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/ResourceTests/ResourceSystemImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/ResourceTests/ResourceSystemImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/TExecutorTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/TExecutorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/UsersDAOTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/UsersDAOTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/mail/projects/vfs/impl/VFSImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/mail/projects/vfs/impl/VFSImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/UtilsTests/VFSImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/UtilsTests/VFSImplTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TowerFight.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383470094510" ignored="false" />
+    <file path="/Dummy.txt" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383566052185" ignored="false" />
     <file path="/pom.xml" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382340735740" ignored="false" />
     <file path="/FrontendTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1381525224938" ignored="false" />
     <file path="/RStests.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1381525763270" ignored="false" />
     <file path="/FrontendImpl.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382439053579" ignored="false" />
-    <file path="/fragment.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383239494818" ignored="false" />
+    <file path="/fragment.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383472959077" ignored="false" />
     <file path="/Main.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382341469454" ignored="false" />
     <file path="/FrontendImplTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382463608987" ignored="false" />
-    <file path="/GameMechanicsImplTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382538321239" ignored="false" />
+    <file path="/GameMechanicsImplTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383566195938" ignored="false" />
     <file path="/GameSessionTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382455705988" ignored="false" />
     <file path="/DatabaseServiceMockTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383231870685" ignored="false" />
     <file path="/UsersDataSetTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382973395908" ignored="false" />
     <file path="/UserSession.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382438984405" ignored="false" />
-    <file path="/DatabaseServiceImplTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383472235488" ignored="false" />
+    <file path="/DatabaseServiceImplTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383566666388" ignored="false" />
     <file path="/MessageSystem.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382447234347" ignored="false" />
-    <file path="/MsgUpdateUserId.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382446989125" ignored="false" />
+    <file path="/MsgUpdateUserId.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383575094165" ignored="false" />
     <file path="/DatabaseServiceMock.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383471987254" ignored="false" />
     <file path="/MessageSystemImpl.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382447187527" ignored="false" />
     <file path="/UserSessionTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382538610277" ignored="false" />
     <file path="/PageGeneratorImplTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383233195672" ignored="false" />
-    <file path="/MsgGameStarted.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382452483473" ignored="false" />
-    <file path="/GameMechanicsImpl.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382452536079" ignored="false" />
+    <file path="/MsgGameStarted.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383573136342" ignored="false" />
+    <file path="/GameMechanicsImpl.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383564368670" ignored="false" />
     <file path="/GameSession.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382455047709" ignored="false" />
     <file path="/AddressServiceImplTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383472287622" ignored="false" />
-    <file path="/VFSImplTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383229703138" ignored="false" />
+    <file path="/VFSImplTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383573859932" ignored="false" />
     <file path="/test.txt" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382459898037" ignored="false" />
     <file path="/Context.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382460152245" ignored="false" />
     <file path="/LongIdTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383231509379" ignored="false" />
     <file path="/ContextTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382461029960" ignored="false" />
-    <file path="/MsgUpdateUserIdTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382534678058" ignored="false" />
+    <file path="/MsgUpdateUserIdTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383576265025" ignored="false" />
     <file path="/MsgAddUserId.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382461775121" ignored="false" />
     <file path="/MsgGameStartedTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382534606223" ignored="false" />
     <file path="/ThreadHelperTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382534884923" ignored="false" />
@@ -49,11 +57,11 @@
     <file path="/MsgClickTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382534611667" ignored="false" />
     <file path="/MsgGetUserIdTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382534636022" ignored="false" />
     <file path="/MsgStartGameTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382534658263" ignored="false" />
-    <file path="/DbConnectionResourceTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382535055663" ignored="false" />
-    <file path="/ResourceSystemImplTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383470428253" ignored="false" />
+    <file path="/DbConnectionResourceTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383474612201" ignored="false" />
+    <file path="/ResourceSystemImplTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383475625002" ignored="false" />
     <file path="/ResourceSystemImpl.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382535393742" ignored="false" />
     <file path="/GameStateTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382538515536" ignored="false" />
-    <file path="/UsersDAOTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383331009739" ignored="false" />
+    <file path="/UsersDAOTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383479273637" ignored="false" />
     <file path="/UsersDAO.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1382541515561" ignored="false" />
     <file path="/MessageSystemImplTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383469600831" ignored="false" />
     <file path="/ReflectionHelperTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383468790248" ignored="false" />
@@ -63,10 +71,13 @@
     <file path="/a.dummy" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383470803434" ignored="false" />
     <file path="/PageGeneratorImpl.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383232762906" ignored="false" />
     <file path="/TExecutorTests.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383237364219" ignored="false" />
-    <file path="/TExecutorTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383465877980" ignored="false" />
+    <file path="/TExecutorTest.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383481239000" ignored="false" />
     <file path="/TExecutor.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383467529618" ignored="false" />
     <file path="/DbConnection.xml" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383327396902" ignored="false" />
     <file path="/ReflectionHelper.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383468542751" ignored="false" />
+    <file path="/MsgToFrontend.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383572924412" ignored="false" />
+    <file path="/MsgReplicate.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383573065066" ignored="false" />
+    <file path="/VFSImpl.java" changelist="1bc29358-7f50-4a23-ac27-93a4b1f5036c" time="1383574214318" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +91,17 @@
     <splitter proportion="0.5" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ButtonClickGame$TExecutorTests_.coverage" NAME="TExecutorTests. Coverage Results" MODIFIED="1383239483167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>ru.mail.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/ButtonClickGame$Main.coverage" NAME="Main Coverage Results" MODIFIED="1382341642713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ButtonClickGame$VFSImplTest_AbsolutePathTest.coverage" NAME="VFSImplTest.AbsolutePathTest Coverage Results" MODIFIED="1383229367599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.mail.projects.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/ButtonClickGame$PageGeneratorImplTest_testGenerateGamePage.coverage" NAME="PageGeneratorImplTest.testGenerateGamePage Coverage Results" MODIFIED="1383233646578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mail.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ButtonClickGame$_default_.coverage" NAME="&lt;default&gt; Coverage Results" MODIFIED="1382546784246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ButtonClickGame$Main.coverage" NAME="Main Coverage Results" MODIFIED="1382341642713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mail.projects.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ButtonClickGame$_home_grune4ka_IdeaProjects_MyGame_ButtonClickGame_src_testng_xml.coverage" NAME="$PROJECT_DIR$/src/testng.xml Coverage Results" MODIFIED="1383576802155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.mail.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/ButtonClickGame$_home_timur_Workspace_Testing_MyGame_ButtonClickGame_src_testng_xml.coverage" NAME="$PROJECT_DIR$/src/testng.xml Coverage Results" MODIFIED="1383472296933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -95,16 +110,12 @@
     <SUITE FILE_PATH="coverage/ButtonClickGame$DBtests.coverage" NAME="DBtests Coverage Results" MODIFIED="1382375741251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.mail.projects.tests.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ButtonClickGame$VFSImplTest_AbsolutePathTest.coverage" NAME="VFSImplTest.AbsolutePathTest Coverage Results" MODIFIED="1383229367599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>ru.mail.projects.*</FILTER>
+    <SUITE FILE_PATH="coverage/ButtonClickGame$TExecutorTests_.coverage" NAME="TExecutorTests. Coverage Results" MODIFIED="1383239483167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.mail.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ButtonClickGame$_default_.coverage" NAME="&lt;default&gt; Coverage Results" MODIFIED="1382546784246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageOptionsProvider">
     <option name="myAddOrReplace" value="1" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myFlattenPackages" value="true" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -113,24 +124,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/tests/GameMechanicTests/GameSessionTest.java" line="2" class="GameSessionTest.java" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -167,6 +160,24 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/tests/GameMechanicTests/GameSessionTest.java" line="2" class="GameSessionTest.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -176,30 +187,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DatabaseServiceImplTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/DatabaseServiceImplTest.java">
+      <file leaf-file-name="GameMechanicsImplTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/GameMechanicTests/GameMechanicsImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="44" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseServiceImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/DatabaseServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="18" selection-start="2414" selection-end="2414" vertical-scroll-proportion="-0.5641026">
+            <state line="109" column="5" selection-start="4553" selection-end="4553" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddressServiceImplTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/MessageSystemTests/AddressServiceImplTest.java">
+      <file leaf-file-name="UserSessionTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/FrontendTests/UserSessionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="2546" selection-end="2546" vertical-scroll-proportion="0.0">
+            <state line="15" column="13" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageGeneratorImplTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/FrontendTests/PageGeneratorImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="13" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrontendImplTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/FrontendTests/FrontendImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="13" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersDataSetTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/UsersDataSetTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersDAOTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/UsersDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="28" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TExecutorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/TExecutorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="13" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseServiceImplTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/DatabaseServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="68" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.813253">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseServiceMockTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/DatabaseServiceMockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="13" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameSessionTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/GameMechanicTests/GameSessionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="13" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -224,22 +296,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/vfs/impl/VFSImpl.java" />
-        <option value="$PROJECT_DIR$/resources/userSess.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/UsersDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/TExecutorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/TExecutor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/utils/ReflectionHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/UtilsTests/ReflectionHelperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/utils/ThreadHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/MessageSystemTests/MessageSystemImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/resources/DbConnectionResource.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/ResourceTests/DbConnectionResourceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ResourceTests/ResourceSystemImplTest.java" />
-        <option value="$PROJECT_DIR$/resources/DbConnection.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/DatabaseServiceMock.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/DatabaseServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/MessageSystemTests/AddressServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/TExecutorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/DatabaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/game/mechanics/impl/GameMechanicsImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/messages/MsgToFrontend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/messages/MsgReplicate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/messages/MsgGameStarted.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/resource/system/impl/ResourceSystemImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/vfs/impl/VFSImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/UtilsTests/VFSImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/mail/projects/messages/MsgUpdateUserId.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/MessageSystemTests/MsgUpdateUserIdTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/GameMechanicTests/GameMechanicsImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/UsersDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/DatabaseTests/DatabaseServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -272,10 +344,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1217" />
-    <option name="height" value="1029" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1615" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -305,7 +377,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -409,6 +480,130 @@
               <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UtilsTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtonClickGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtonClickGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ResourceTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtonClickGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtonClickGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MessageSystemTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtonClickGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtonClickGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameMechanicTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtonClickGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtonClickGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontendTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -465,6 +660,36 @@
               <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtonClickGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ButtonClickGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -492,7 +717,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -542,6 +767,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -580,7 +806,48 @@
       <recent name="ru.mail.projects.tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./home/timur/Workspace/Testing/MyGame/ButtonClickGame/src/testng.xml">
+  <component name="RunManager" selected="TestNG./home/grune4ka/IdeaProjects/MyGame/ButtonClickGame/src/testng.xml">
+    <configuration default="false" name="$PROJECT_DIR$/src/testng.xml" type="TestNG" factoryName="TestNG" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" track_test_folders="true" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="ru.mail.projects.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="ru.mail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ButtonClickGame" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="TExecutorTests." type="TestNG" factoryName="TestNG" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" track_test_folders="true" runner="emma">
         <pattern>
@@ -735,53 +1002,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="$PROJECT_DIR$/src/testng.xml" type="TestNG" factoryName="TestNG" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" track_test_folders="true" runner="emma">
-        <pattern>
-          <option name="PATTERN" value="ru.mail.projects.*" />
-          <option name="ENABLED" value="false" />
-        </pattern>
-        <pattern>
-          <option name="PATTERN" value="ru.mail.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ButtonClickGame" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" value="" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Cover" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Cover" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
       <setting name="path" value="" />
@@ -791,22 +1011,10 @@
       <setting name="debug" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -831,6 +1039,24 @@
       </MavenSettings>
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="GriffonRunConfigurationType" factoryName="Griffon">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -848,17 +1074,20 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -889,20 +1118,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -942,15 +1168,15 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.TExecutorTests." />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.VFSImplTest.AbsolutePathTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.tests.DatabaseTests" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.DatabaseServiceImplTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG./home/timur/Workspace/Testing/MyGame/ButtonClickGame/src/testng.xml" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG./home/grune4ka/IdeaProjects/MyGame/ButtonClickGame/src/testng.xml" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.TExecutorTests." />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.VFSImplTest.AbsolutePathTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.tests.DatabaseTests" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.DatabaseServiceImplTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG./home/timur/Workspace/Testing/MyGame/ButtonClickGame/src/testng.xml" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG./home/grune4ka/IdeaProjects/MyGame/ButtonClickGame/src/testng.xml" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.TExecutorTests." />
         <item index="2" class="java.lang.String" itemvalue="TestNG.DatabaseServiceImplTest" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.tests.DatabaseTests" />
@@ -1050,13 +1276,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1217" height="1029" extended-state="6" />
+    <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23428571" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17536071" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398641" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1065,16 +1291,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933652" sideWeight="0.73344105" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26304108" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961375" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24034335" sideWeight="0.74628574" order="0" side_tool="true" content_ui="tabs" x="1297" y="310" width="414" height="628" />
+      <window_info id="Coverage" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3341853" sideWeight="0.76692563" order="0" side_tool="true" content_ui="tabs" x="1297" y="310" width="414" height="628" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16227019" sideWeight="0.73344105" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532189" sideWeight="0.74628574" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2537143" sideWeight="0.34763232" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30926517" sideWeight="0.76692563" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23307437" sideWeight="0.34763232" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1150,116 +1376,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/MessageSystemTests/MsgGameStartedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/MessageSystemTests/MsgClickTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/MessageSystemTests/MsgAddUserIdTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/MessageSystemTests/MessageSystemImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="51" selection-start="2631" selection-end="2631" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/messages/MsgAddUserId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ResourceTests/DbConnectionResourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.07692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/resources/UserSessResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/messages/MsgClick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="202" selection-end="202" vertical-scroll-proportion="0.11214953">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/resources/DbConnectionResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="7" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.65178573">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ResourceTests/ResourceSystemImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="37" selection-start="1347" selection-end="1347" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/UsersDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="35" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/UsersDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="382" selection-end="382" vertical-scroll-proportion="0.12038523">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/DatabaseServiceMockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="17" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/message/system/impl/AddressServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/DbConnection.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/DatabaseServiceMock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="37" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
+        <state line="25" column="13" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/MessageSystemTests/AddressServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="2546" selection-end="2546" vertical-scroll-proportion="0.0">
+        <state line="23" column="13" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/GameMechanicTests/GameStateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/GameMechanicTests/GameSessionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="13" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/GameMechanicTests/GameMechanicsImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="5" selection-start="4553" selection-end="4553" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FrontendTests/UserSessionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FrontendTests/PageGeneratorImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FrontendTests/FrontendImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/UsersDataSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/UsersDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="28" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/TExecutorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/DatabaseServiceMockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="13" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/DatabaseTests/DatabaseServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="44" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/mail/projects/account/database/impl/DatabaseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="18" selection-start="2414" selection-end="2414" vertical-scroll-proportion="-0.5641026">
+        <state line="51" column="68" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.813253">
           <folding />
         </state>
       </provider>

@@ -26,7 +26,7 @@ public class MsgGameStarted extends MsgToFrontend {
 		gameSessionId = new AtomicInteger (gameSessId.get());
 	}
 	
-	public void exec (Frontend frontend) {
+	public void exec (FrontendImpl frontend) {
 		
 		System.out.println ("Diesel");
 		frontend.showStartedGame(firstSessionId, secondSessionId, gameSessionId.get());

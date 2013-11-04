@@ -42,4 +42,9 @@ public class TExecutorTest {
         TExecutor tExecutor = new TExecutor();
         Assert.assertTrue(tExecutor.insertUser(conn, "Timur"));
     }
+
+    @Test
+    public void updateStatisticsTest(){
+
+    }
 }

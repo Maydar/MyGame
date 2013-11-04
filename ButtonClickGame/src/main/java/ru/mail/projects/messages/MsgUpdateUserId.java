@@ -26,8 +26,9 @@ public class MsgUpdateUserId extends MsgToFrontend {
     public LongId<UserId> getUserId() {
         return userId;
     }
-    public void exec (Frontend frontend) {
-		frontend.updateUserId (sessionId, userId);
+    public void exec (FrontendImpl frontend) {
+        frontend.updateUserId (sessionId, userId);
+
 	}
 
     public LongId<SessionId> getSession() {

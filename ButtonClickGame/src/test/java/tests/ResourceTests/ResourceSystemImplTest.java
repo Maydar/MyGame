@@ -19,6 +19,7 @@ public class ResourceSystemImplTest {
 
     private VFS vfs;
     private ResourceSystem resourceSystem;
+    private ResourceSystem resourceSystem2;
 
     @BeforeClass
     public void setUp() {

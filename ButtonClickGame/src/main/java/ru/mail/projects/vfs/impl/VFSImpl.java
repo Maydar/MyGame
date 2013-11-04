@@ -118,12 +118,14 @@ public class VFSImpl implements VFS {
 			
 			
 		}
-		 try {
+		try {
 			resString = charset.newDecoder().decode(buffer).toString();
 			
 		} catch (CharacterCodingException e) {
 			e.printStackTrace();
-		}
+		} catch (NullPointerException e){
+            e.printStackTrace();
+        }
 		 return resString;
 	}
 

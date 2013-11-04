@@ -83,21 +83,27 @@ public class GameMechanicsImpl implements Runnable, GameMechanics{
 		Address frEndAddr = MsgSystem.getAddressService().getAddress("Frontend", sessionId);
 		MsgSystem.sendMessage(new MsgReplicate (GmAddr, frEndAddr));
 	}
-	
-	@Override
+
+    @Override
 	public void run() {
 		while (true) {
-			 
-			long startTime = System.currentTimeMillis();
-			MsgSystem.execForAbonent(this);
-			replicateGamesToFrontEnd ();
-			long deltaTime = System.currentTimeMillis() - startTime;
-			double load = deltaTime/TICK_TIME;
-			if(load < 1)
-				ThreadHelper.Sleep(TICK_TIME - deltaTime, log);
-			
+           act();
 		}
 	}
+
+    public  boolean act() {
+        long startTime = System.currentTimeMillis();
+        MsgSystem.execForAbonent(this);
+        replicateGamesToFrontEnd ();
+        long deltaTime = System.currentTimeMillis() - startTime;
+        double load = deltaTime/TICK_TIME;
+        if(load < 1){
+            ThreadHelper.Sleep(TICK_TIME - deltaTime, log);
+            return false;
+        } else
+            return true;
+
+    }
 
 	public String getName() {
 		return name;
