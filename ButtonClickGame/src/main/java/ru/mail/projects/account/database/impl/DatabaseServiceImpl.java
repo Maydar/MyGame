@@ -91,12 +91,8 @@ public class DatabaseServiceImpl implements Runnable, DatabaseService {
 	public void FindUser (LongId<SessionId> sessionId, String userName, Address to) {
 		
 		LongId<UserId> Id = null;
-		Integer id_user = new Integer (0);
-		
 		UsersDataSet uDataSet = uDAO.getByName(userName);
-		
 		if (uDataSet != null) Id = new LongId<UserId> (uDataSet.getId());
-		
 		ThreadHelper.Sleep(1000, log);
 		MsgSystem.sendMessage 
 			(new MsgUpdateUserId (getAddress(), to, sessionId, Id));

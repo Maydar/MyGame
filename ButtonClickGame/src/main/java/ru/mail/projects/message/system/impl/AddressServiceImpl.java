@@ -27,17 +27,16 @@ public class AddressServiceImpl implements AddressService {
 	public Map <String, Address> addresses = new HashMap <String, Address> ();
 	
 	public Address getAddress (String className, LongId<SessionId> sessionId) {	
-		if(className == Abonents.Frontend.toString())
+		if(className == frontend)
 			Name = className + (sessionId.getLong() % FrontendImpl.count);
 		else
-			if(className == Abonents.GameMechanics.toString())
+			if(className == gameMechanics)
 				Name = className + (sessionId.getLong() % GameMechanicsImpl.count);
 			else
-				if(className == Abonents.DatabaseService.toString())
+				if(className == databaseService)
 					Name = className + (sessionId.getLong() % DatabaseServiceImpl.count); 
 	
 		
-				
 	    return addresses.get (Name);
 	}
 	public void SetAddress (Abonent abonent) {

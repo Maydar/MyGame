@@ -25,7 +25,6 @@ public class TExecutor {
 			else value = null;
 		}
 		catch (SQLException sql) {
-			
 			System.out.println (sql.getMessage());
 			System.out.println ("Error with the query");
             sql.printStackTrace(System.out);
@@ -54,7 +53,6 @@ public class TExecutor {
 		}
 		
 		catch (SQLException sql) {
-			
 			System.out.println (sql.getMessage());
             return false;
 		}
@@ -70,7 +68,9 @@ public class TExecutor {
 		}
         return true;
 	}
-	
+}
+
+/*
 	public void updateStatistics (Connection connection, String User1, String User2, boolean first_win) {
 		
 		String update_win =  "UPDATE Users SET GameNum = GameNum + 1, WinNum = WinNum + 1 WHERE " +
@@ -113,4 +113,5 @@ public class TExecutor {
 			catch (SQLException sqlE) { System.out.println (sqlE.getMessage()); }
 		}
 	}
-}
+
+*/

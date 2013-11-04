@@ -50,6 +50,15 @@ public class GameMechanicsImplTest {
     }
 
     @Test
+    public void actTest()
+    {
+        FrontendImpl frontend = new FrontendImpl(context);
+        msgSystem.addService(frontend);
+        boolean res = new GameMechanicsImpl(context).act();
+        Assert.assertFalse(res);
+    }
+
+    @Test
     public void testStartGame() throws Exception {
 
         GameMechanicsImpl gameMechanicsFirst = new GameMechanicsImpl(context);

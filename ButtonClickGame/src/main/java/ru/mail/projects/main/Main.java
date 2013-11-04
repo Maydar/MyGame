@@ -35,12 +35,12 @@ public class Main
     	ResourceSystem rsSystem = new ResourceSystemImpl(vfs);
     	rsSystem.loadResources();
     	context.add(ResourceSystem.class, rsSystem);
-    	
+
     	DatabaseServiceMock AccSer  = new DatabaseServiceMock(context);
     	DatabaseServiceMock AccSer2 = new DatabaseServiceMock(context);
     	FrontendImpl frEnd = new FrontendImpl (context);
     	GameMechanicsImpl Gm = new GameMechanicsImpl (context);
-    	
+
     	MsgSys.addService(frEnd);
     	MsgSys.addService(AccSer);
     	MsgSys.addService(AccSer2);

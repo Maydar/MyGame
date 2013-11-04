@@ -81,7 +81,9 @@ public class GameMechanicsImpl implements Runnable, GameMechanics{
 
 		LongId<SessionId> sessionId = new LongId<SessionId> (1);
 		Address frEndAddr = MsgSystem.getAddressService().getAddress("Frontend", sessionId);
-		MsgSystem.sendMessage(new MsgReplicate (GmAddr, frEndAddr));
+        try {
+            MsgSystem.sendMessage(new MsgReplicate (GmAddr, frEndAddr));
+        }   catch (NullPointerException e) {}
 	}
 
     @Override
@@ -91,14 +93,14 @@ public class GameMechanicsImpl implements Runnable, GameMechanics{
 		}
 	}
 
-    public  boolean act() {
+    public boolean act() {
         long startTime = System.currentTimeMillis();
         MsgSystem.execForAbonent(this);
         replicateGamesToFrontEnd ();
         long deltaTime = System.currentTimeMillis() - startTime;
         double load = deltaTime/TICK_TIME;
         if(load < 1){
-            ThreadHelper.Sleep(TICK_TIME - deltaTime, log);
+        ThreadHelper.Sleep(TICK_TIME - deltaTime, log);
             return false;
         } else
             return true;
